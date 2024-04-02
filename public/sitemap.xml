@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lidianzhong.gitee.io/posts/robot/</loc>
+    <loc>http://localhost:5112/posts/robot/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/tools/</loc>
+    <loc>http://localhost:5112/posts/tools/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/</loc>
+    <loc>http://localhost:5112/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/links/</loc>
+    <loc>http://localhost:5112/links/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/robot/robot_book/</loc>
+    <loc>http://localhost:5112/posts/robot/robot_book/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/</loc>
+    <loc>http://localhost:5112/posts/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/git/</loc>
+    <loc>http://localhost:5112/tags/git/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/tools/git/</loc>
+    <loc>http://localhost:5112/posts/tools/git/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</loc>
+    <loc>http://localhost:5112/posts/tools/git/git-command-overall/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/network-bugs/</loc>
+    <loc>http://localhost:5112/tags/network-bugs/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/overview/</loc>
+    <loc>http://localhost:5112/tags/overview/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/robot/</loc>
+    <loc>http://localhost:5112/tags/robot/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/</loc>
+    <loc>http://localhost:5112/tags/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</loc>
+    <loc>http://localhost:5112/posts/tools/git/solve-git-slow-problem/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/robot/robot_book/overview/</loc>
+    <loc>http://localhost:5112/posts/robot/robot_book/overview/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/robot/robot_book/guan_jie_dian_ji/</loc>
+    <loc>http://localhost:5112/posts/robot/robot_book/guan_jie_dian_ji/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/about/</loc>
+    <loc>http://localhost:5112/about/</loc>
     <lastmod>2021-11-06T14:57:28+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/archives/</loc>
+    <loc>http://localhost:5112/archives/</loc>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/search/</loc>
+    <loc>http://localhost:5112/search/</loc>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/categories/</loc>
+    <loc>http://localhost:5112/categories/</loc>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/series/</loc>
+    <loc>http://localhost:5112/series/</loc>
   </url>
 </urlset>
