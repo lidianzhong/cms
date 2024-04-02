@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🧩 标签 on Dawn Journey</title>
+    <link>https://lidianzhong.gitee.io/tags/</link>
+    <description>Recent content in 🧩 标签 on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 01 Apr 2024 01:09:33 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://lidianzhong.gitee.io/tags/git/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network Bugs</title>
+      <link>https://lidianzhong.gitee.io/tags/network-bugs/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/tags/network-bugs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://lidianzhong.gitee.io/tags/overview/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/tags/overview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robot</title>
+      <link>https://lidianzhong.gitee.io/tags/robot/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/tags/robot/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

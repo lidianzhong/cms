@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://lidianzhong.gitee.io/sitemap.xml

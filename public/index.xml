@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dawn Journey</title>
+    <link>https://lidianzhong.gitee.io/</link>
+    <description>Recent content on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🤝友链</title>
+      <link>https://lidianzhong.gitee.io/links/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/links/</guid>
+      <description>Dawn Journey 在黎明的微光中，我们踏上了一场绚丽的旅程 👉友链格式 名称： Dawn Journey 网址： https://lidianzhong.gitee.io/ 图标： https://lidianzhong.gitee.io/img/Q.gif 描述： 在黎明的微光中，我们踏上了一场绚丽的旅程</description>
+    </item>
+    
+    <item>
+      <title>Git 命令汇总</title>
+      <link>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</guid>
+      <description>Git 命令汇总 1. 分支相关 1.1 查看当前分支 git branch 1.2 创建一个新分支并切换到这个分支 git checkout -b dev # 创建新分支 dev 并切换到它 1.3 切换到某个分支 git checkout test # 切换到 test 分支 1.4 删除分支 git branch -d test # 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除 2. 撤销相关 2.1 撤销最近的一次提交 git reset --hard HEAD~1 # 撤销最近的一次提交</description>
+    </item>
+    
+    <item>
+      <title>解决Git同步访问慢的问题</title>
+      <link>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</guid>
+      <description>在我们想要将本地的代码提交到Github远程仓库时，会因为网络问题，拉取失败。 解决Git提交拉取时的网络问题 查询以下网址对应的DNS服务器地址: DNS查询工具 github.com github.global.ssl.fastly.net assets-cdn.github.com 修改 hosts 文件 20.205.243.166 github.com 66.220.148.145 github.global.ssl.fastly.net 185.199.111.153 assets-cdn.github.com # https://tool.chinaz.com/dns/github.com # https://tool.chinaz.com/dns/github.global.ssl.fastly.net # https://tool.chinaz.com/dns/assets-cdn.github.com 解决 Git clone 时的网络问题 加个fast：https://github.com/ 改为 https://githubfast.com/ 使用</description>
+    </item>
+    
+    <item>
+      <title>四足机器人概述</title>
+      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/overview/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/overview/</guid>
+      <description>介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric</description>
+    </item>
+    
+    <item>
+      <title>四足机器人关节电机</title>
+      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/guan_jie_dian_ji/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/guan_jie_dian_ji/</guid>
+      <description>后续开发的算法，最终结果都是生成发送给这12个关节电机的命令 四足机器人的动力系统 1. 永磁同步电机（PMSM） 通过控制定子上三个线圈的电流，可以控制电机的力矩和角度。这种控制方法叫做矢量控制（FOC）。 2. 关节电机的混合控制 关节电机的内部，已经封装了电机底层的控制算法。作为用户，只要给</description>
+    </item>
+    
+    <item>
+      <title>🙋🏻‍♂️关于</title>
+      <link>https://lidianzhong.gitee.io/about/</link>
+      <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/about/</guid>
+      <description>关于我 Dawn Journey 在黎明的微光中，我们踏上了一场绚丽的旅程 一首诗 轮台东门送君去，去时雪满天山路。 峰回路转不见君，雪上空留马行处。 本站建于 2024 年 4 月 1 日</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
