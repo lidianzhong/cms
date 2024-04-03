@@ -73,18 +73,18 @@ params:
   author: Leo
   # author: ["Me", "You"] # multiple authors
 
-  defaultTheme: auto  # defaultTheme: light or  dark
+  defaultTheme: light  # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   ShowShareButtons: true
-  ShowReadingTime: true
+  ShowReadingTime: false
+  ShowWordCount: false
   # disableSpecialistPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideFooter: false # 隐藏页脚
-  ShowWordCounts: true
   VisitCount: true
   ShowLastMod: true #显示文章更新时间
 
@@ -195,7 +195,6 @@ markup:
   highlight:
     # anchorLineNos: true
     codeFences: true
-    guessSyntax: true
     # lineNos: true
     noClasses: true
     tabWidth: 4
@@ -205,7 +204,7 @@ markup:
     # hl_Lines：高亮的行号，一般这个不设置，因为每个代码块我们可能希望让高亮的地方不一样。
     # lineNoStart：行号从编号几开始，一般从 1 开始。
     # lineNos：是否显示行号，我比较喜欢显示，所以我设置的为 true.
-    # lineNumbersInTable：使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
+    lineNumbersInTable: true # 使用表来格式化行号和代码,而不是 标签。这个属性一般设置为 true.
     # noClasses：使用 class 标签，而不是内嵌的内联样式
 
 privacy:

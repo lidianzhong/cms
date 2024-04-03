@@ -6,29 +6,29 @@
     <description>Recent content in 🧩 标签 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Apr 2024 01:09:33 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git</title>
-      <link>https://lidianzhong.gitee.io/tags/git/</link>
-      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      <title>BUGS</title>
+      <link>https://lidianzhong.gitee.io/tags/bugs/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/git/</guid>
+      <guid>https://lidianzhong.gitee.io/tags/bugs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Network Bugs</title>
-      <link>https://lidianzhong.gitee.io/tags/network-bugs/</link>
-      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      <title>WSL2</title>
+      <link>https://lidianzhong.gitee.io/tags/wsl2/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/network-bugs/</guid>
+      <guid>https://lidianzhong.gitee.io/tags/wsl2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Overview</title>
       <link>https://lidianzhong.gitee.io/tags/overview/</link>
-      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://lidianzhong.gitee.io/tags/overview/</guid>
       <description></description>
@@ -37,9 +37,27 @@
     <item>
       <title>Robot</title>
       <link>https://lidianzhong.gitee.io/tags/robot/</link>
-      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://lidianzhong.gitee.io/tags/robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulation</title>
+      <link>https://lidianzhong.gitee.io/tags/simulation/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://lidianzhong.gitee.io/tags/git/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/tags/git/</guid>
       <description></description>
     </item>
     

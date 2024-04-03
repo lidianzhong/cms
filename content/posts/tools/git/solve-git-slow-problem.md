@@ -5,7 +5,7 @@ date: 2024-04-01T01:09:33+08:00
 draft: false
 tags: 
     - "Git"
-    - "Network Bugs"
+    - "Bugs"
 ---
 
 > 在我们想要将本地的代码提交到Github远程仓库时，会因为网络问题，拉取失败。

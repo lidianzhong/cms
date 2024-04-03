@@ -28,34 +28,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
 <link rel="stylesheet" href="/fix/font-awesome.min.css">
 <script src="/fix/busuanzi.pure.mini.js"></script>
@@ -85,27 +57,10 @@ var _hmt = _hmt || [];
 
 <body class="list" id="top">
 <script>
-    (function () {
-        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
-        if(arr = document.cookie.match(reg)) {
-        } else {
-            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
-                document.body.classList.add('dark');
-                localStorage.setItem("pref-theme", 'dark');
-            } else {
-                document.body.classList.remove('dark');
-                localStorage.setItem("pref-theme", 'light');
-            }
-        }
-    })()
-
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
+
 </script>
 
 <header class="header">
@@ -192,8 +147,8 @@ var _hmt = _hmt || [];
         
         
         
-        <a href="https://lidianzhong.gitee.io/tags/git/" style="font-size: 1.3154648767857289rem; font-weight: 394.6394630357187;">
-            Git <sup><strong><sup>2</sup></strong></sup>
+        <a href="https://lidianzhong.gitee.io/tags/bugs/" style="font-size: 1.25rem; font-weight: 375;">
+            Bugs <sup><strong><sup>2</sup></strong></sup>
         </a>
         
 
@@ -208,8 +163,8 @@ var _hmt = _hmt || [];
         
         
         
-        <a href="https://lidianzhong.gitee.io/tags/network-bugs/" style="font-size: 1rem; font-weight: 300;">
-            Network Bugs <sup><strong><sup>1</sup></strong></sup>
+        <a href="https://lidianzhong.gitee.io/tags/git/" style="font-size: 1.25rem; font-weight: 375;">
+            Git <sup><strong><sup>2</sup></strong></sup>
         </a>
         
 
@@ -240,8 +195,40 @@ var _hmt = _hmt || [];
         
         
         
-        <a href="https://lidianzhong.gitee.io/tags/robot/" style="font-size: 1.3154648767857289rem; font-weight: 394.6394630357187;">
-            robot <sup><strong><sup>2</sup></strong></sup>
+        <a href="https://lidianzhong.gitee.io/tags/robot/" style="font-size: 1.396240625180289rem; font-weight: 418.8721875540867;">
+            robot <sup><strong><sup>3</sup></strong></sup>
+        </a>
+        
+
+    </li>
+    <li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://lidianzhong.gitee.io/tags/simulation/" style="font-size: 1rem; font-weight: 300;">
+            simulation <sup><strong><sup>1</sup></strong></sup>
+        </a>
+        
+
+    </li>
+    <li>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://lidianzhong.gitee.io/tags/wsl2/" style="font-size: 1rem; font-weight: 300;">
+            WSL2 <sup><strong><sup>1</sup></strong></sup>
         </a>
         
 

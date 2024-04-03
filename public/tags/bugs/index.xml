@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Network Bugs on Dawn Journey</title>
-    <link>https://lidianzhong.gitee.io/tags/network-bugs/</link>
-    <description>Recent content in Network Bugs on Dawn Journey</description>
+    <title>BUGS on Dawn Journey</title>
+    <link>https://lidianzhong.gitee.io/tags/bugs/</link>
+    <description>Recent content in BUGS on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Apr 2024 01:09:33 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/network-bugs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/bugs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL 问题汇总</title>
+      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</guid>
+      <description>安装问题 无法解析的服务器名称，Error code: Wsl/WININET_E_NAME_NOT_RESOLVED PS C:\Users\DianzhongLi&amp;gt; wsl --list --online 无法从“https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json”中提取列表分发。无法解析服务器的名称</description>
+    </item>
+    
     <item>
       <title>解决Git同步访问慢的问题</title>
       <link>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</link>
