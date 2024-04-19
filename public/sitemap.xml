@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lidianzhong.gitee.io/posts/ubuntu/common_command/</loc>
+    <lastmod>2024-04-16T01:20:57+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/python/grammar/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/embedded_system/</loc>
+    <lastmod>2024-04-12T02:54:39+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/robot/ros/</loc>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
+  </url><url>
     <loc>https://lidianzhong.gitee.io/posts/robot/</loc>
-    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
     <loc>https://lidianzhong.gitee.io/posts/robot/robot_book/1_overview/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
@@ -11,32 +23,95 @@
     <loc>https://lidianzhong.gitee.io/posts/tools/git/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/tools/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://lidianzhong.gitee.io/posts/tools/wsl2/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-16T13:13:20+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/ubuntu/</loc>
+    <lastmod>2024-04-19T16:56:28+08:00</lastmod>
   </url><url>
     <loc>https://lidianzhong.gitee.io/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://lidianzhong.gitee.io/posts/tools/</loc>
+    <lastmod>2024-04-16T13:13:20+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/bugs/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/</loc>
+    <lastmod>2024-04-19T16:56:28+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/</loc>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
     <loc>https://lidianzhong.gitee.io/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://lidianzhong.gitee.io/tags/gpu/</loc>
+    <lastmod>2024-04-19T16:56:28+08:00</lastmod>
   </url><url>
-    <loc>https://lidianzhong.gitee.io/tags/wsl2/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/</loc>
+    <lastmod>2024-04-19T16:56:28+08:00</lastmod>
   </url><url>
     <loc>https://lidianzhong.gitee.io/tags/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/conda/</loc>
+    <lastmod>2024-04-16T13:52:25+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</loc>
+    <lastmod>2024-04-16T13:52:25+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</loc>
+    <lastmod>2024-04-16T13:13:20+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</loc>
+    <lastmod>2024-04-16T01:25:45+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/ubuntu/</loc>
+    <lastmod>2024-04-16T01:20:57+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/ubuntu/common_command/common_command/</loc>
+    <lastmod>2024-04-16T01:20:57+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/assembly/</loc>
+    <lastmod>2024-04-15T19:14:13+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/%E6%B1%87%E7%BC%96/</loc>
+    <lastmod>2024-04-15T19:14:13+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/assembly/memory_location/</loc>
+    <lastmod>2024-04-15T19:14:13+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/python/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/python/</loc>
+    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/nodemcu/</loc>
+    <lastmod>2024-04-12T02:54:39+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</loc>
+    <lastmod>2024-04-12T02:54:39+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
+    <lastmod>2024-04-12T02:54:39+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/bug/</loc>
+    <lastmod>2024-04-12T02:12:40+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</loc>
+    <lastmod>2024-04-12T02:12:40+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</loc>
+    <lastmod>2024-04-12T00:57:30+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/ros/</loc>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/posts/robot/ros/ros_about/</loc>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
+  </url><url>
+    <loc>https://lidianzhong.gitee.io/tags/%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
     <loc>https://lidianzhong.gitee.io/posts/robot/robot_book/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>

@@ -33,6 +33,13 @@ git checkout test		 # 切换到 test 分支
 git branch -d test		# 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除
 ```
 
+1.5 重命名分支
+
+``` bash
+git branch -m <old_branch_name> <new_branch_name>
+```
+
+
 
 ### 2. 撤销相关
 

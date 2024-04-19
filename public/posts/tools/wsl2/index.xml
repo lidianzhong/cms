@@ -6,14 +6,23 @@
     <description>Recent content in WSL2 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/tools/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 13:13:20 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/tools/wsl2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>WSL 问题汇总</title>
+      <title>Wsl2_problem</title>
       <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 13:13:20 +0800</pubDate>
       
       <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</guid>
       <description>安装问题 无法解析的服务器名称，Error code: Wsl/WININET_E_NAME_NOT_RESOLVED PS C:\Users\DianzhongLi&amp;gt; wsl --list --online 无法从“https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json”中提取列表分发。无法解析服务器的名称</description>
+    </item>
+    
+    <item>
+      <title>Wsl2_install</title>
+      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</link>
+      <pubDate>Tue, 16 Apr 2024 01:25:45 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</guid>
+      <description>安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws</description>
     </item>
     
   </channel>

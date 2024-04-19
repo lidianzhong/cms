@@ -6,7 +6,16 @@
     <description>Recent content on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 16:56:28 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>python 语法</title>
+      <link>https://lidianzhong.gitee.io/posts/python/grammar/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/python/grammar/</guid>
+      <description>__init__.py 的作用 用于告诉 Python 解释器，该目录是一个包，而不仅仅是一个普通的目录。这样你就可以使用 import 来导入目录中的模块 同时在 init.py 文件中你也可以做一些必要的设置、定义一些变量等等。</description>
+    </item>
+    
     <item>
       <title>四足机器人概述</title>
       <link>https://lidianzhong.gitee.io/posts/robot/robot_book/1_overview/</link>
@@ -26,12 +35,93 @@
     </item>
     
     <item>
-      <title>WSL 问题汇总</title>
+      <title>GPU 相关</title>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/</link>
+      <pubDate>Fri, 19 Apr 2024 16:56:28 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/</guid>
+      <description>cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 CUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com) ubuntu下安装多版本cuda及版本切换教程_ubuntu切换</description>
+    </item>
+    
+    <item>
+      <title>Conda 常用命令汇总</title>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</link>
+      <pubDate>Tue, 16 Apr 2024 13:52:25 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</guid>
+      <description>卸载 Conda 环境 conda env remove --name myenv</description>
+    </item>
+    
+    <item>
+      <title>Wsl2_problem</title>
       <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 13:13:20 +0800</pubDate>
       
       <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</guid>
       <description>安装问题 无法解析的服务器名称，Error code: Wsl/WININET_E_NAME_NOT_RESOLVED PS C:\Users\DianzhongLi&amp;gt; wsl --list --online 无法从“https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json”中提取列表分发。无法解析服务器的名称</description>
+    </item>
+    
+    <item>
+      <title>Wsl2_install</title>
+      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</link>
+      <pubDate>Tue, 16 Apr 2024 01:25:45 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</guid>
+      <description>安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 常用命令汇总</title>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/common_command/common_command/</link>
+      <pubDate>Tue, 16 Apr 2024 01:20:57 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/common_command/common_command/</guid>
+      <description>apt 清华源 配置地址：/etc/apt/sources.list ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror 解压 tar.gz 文件 tar -xzvf filename.tar.gz 清华 conda 镜像 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/ conda config --set show_channel_urls yes pip 清华源 临时使用：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 设为默认：pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple pypi | 镜像站使用帮助 | 清华大学开源软件</description>
+    </item>
+    
+    <item>
+      <title>内存访问</title>
+      <link>https://lidianzhong.gitee.io/posts/assembly/memory_location/</link>
+      <pubDate>Mon, 15 Apr 2024 19:14:13 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/assembly/memory_location/</guid>
+      <description>使用间接寻址访问内存中的指令 [0] 表示访问内存地址为 0 的位置，[bx] 表示访问内存地址为 bx 寄存器值的位置。 ; 从内存地址为 0x1000 的位置读取一个字节 mov bx, 0x1000 ; 将 0x1000 存入 bx 寄存器 mov al, [bx] ; 从内存地址为 bx 的位置读取一个字节，存入 al 寄存器 使用 and 和 or 实现内存定位 and 指令：按位进行与运算，可以将相应位设为0，</description>
+    </item>
+    
+    <item>
+      <title>NodeMCU 简介</title>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</link>
+      <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</guid>
+      <description>ESP8266 ESP8266 利用 WiFi 联网时有三种工作模式。 Station 模式：工作在 Station 模式下的 ESP8266 就像是一个接收机一样，它可以接收来自无线路由器发出的信号。ESP8266 模块通过路由器连接互联网，手机或电脑通过互联网实现对设备的远程控制。 SoftAP 模式：无线接入点的简称，ESP8266 模块作为热点，实现手机或电脑直接与模块通信</description>
+    </item>
+    
+    <item>
+      <title>NodeMCU 编程遇到的问题</title>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</link>
+      <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
+      <description>1. command ‘platformio-ide.build‘ not found 解决：关闭 Vscode 再打开就好了~ 2. PlatformIO串口显示乱码 解决：串口监视器和单片机波特率不一致 [env:nodemcuv2] platform = espressif8266 board = nodemcuv2 framework = esp8266-rtos-sdk monitor_speed = 74880 ; 监视器波特率设置 monitor_port = COM3 ; 监视器端口设置，设置为连接的串口端口 3. PlatformIO串口显示开头乱码 原因：</description>
+    </item>
+    
+    <item>
+      <title>嵌入式常用命令汇总</title>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</link>
+      <pubDate>Fri, 12 Apr 2024 00:57:30 +0800</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</guid>
+      <description>嵌入式命令 查看已经安装的驱动：sudo dmesg 查看安装的串口设备：ls -l /dev/ttyS* 查看安装的USB转串口设备：ls -l /dev/ttyS* 查看系统日志关于串口设备的信息：dmesg | grep ttyS 查看 ttyS0 驱动的安装时间：ls -l /dev/ttyS0 Windows 下查看端口命令 通用方法，Win + X，选择设备管理器，查看 COM 端口，也可点击属性信息查看 PlatformIO Vscode 开发，点</description>
+    </item>
+    
+    <item>
+      <title>ros 相关的安装</title>
+      <link>https://lidianzhong.gitee.io/posts/robot/ros/ros_about/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://lidianzhong.gitee.io/posts/robot/ros/ros_about/</guid>
+      <description>安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本和 python3 版本</description>
     </item>
     
     <item>
@@ -49,7 +139,7 @@
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
       <guid>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</guid>
-      <description>Git 命令汇总 1. 分支相关 1.1 查看当前分支 git branch 1.2 创建一个新分支并切换到这个分支 git checkout -b dev # 创建新分支 dev 并切换到它 1.3 切换到某个分支 git checkout test # 切换到 test 分支 1.4 删除分支 git branch -d test # 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除 2. 撤销相关 2.1 撤销最近的一次提交 git reset --hard HEAD~1 # 撤销最近的一次提交</description>
+      <description>Git 命令汇总 1. 分支相关 1.1 查看当前分支 git branch 1.2 创建一个新分支并切换到这个分支 git checkout -b dev # 创建新分支 dev 并切换到它 1.3 切换到某个分支 git checkout test # 切换到 test 分支 1.4 删除分支 git branch -d test # 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除 1.5 重命名分支 git branch -m &amp;lt;old_branch_name&amp;gt; &amp;lt;new_branch_name&amp;gt; 2. 撤销相关 2.1 撤销最近的一次提交 git reset --hard HEAD~1 # 撤销最近的</description>
     </item>
     
     <item>
