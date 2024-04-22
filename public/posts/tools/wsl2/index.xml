@@ -2,26 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WSL2 on Dawn Journey</title>
-    <link>https://lidianzhong.gitee.io/posts/tools/wsl2/</link>
+    <link>http://localhost:1313/posts/tools/wsl2/</link>
     <description>Recent content in WSL2 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 16 Apr 2024 13:13:20 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/tools/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 02:32:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/tools/wsl2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>局域网访问WSL2服务</title>
+      <link>http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</link>
+      <pubDate>Sat, 20 Apr 2024 02:32:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</guid>
+      <description>在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn</description>
+    </item>
+    
     <item>
       <title>Wsl2_problem</title>
-      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</link>
+      <link>http://localhost:1313/posts/tools/wsl2/wsl2_problem/</link>
       <pubDate>Tue, 16 Apr 2024 13:13:20 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</guid>
+      <guid>http://localhost:1313/posts/tools/wsl2/wsl2_problem/</guid>
       <description>安装问题 无法解析的服务器名称，Error code: Wsl/WININET_E_NAME_NOT_RESOLVED PS C:\Users\DianzhongLi&amp;gt; wsl --list --online 无法从“https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json”中提取列表分发。无法解析服务器的名称</description>
     </item>
     
     <item>
       <title>Wsl2_install</title>
-      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</link>
+      <link>http://localhost:1313/posts/tools/wsl2/wsl2_install/</link>
       <pubDate>Tue, 16 Apr 2024 01:25:45 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</guid>
+      <guid>http://localhost:1313/posts/tools/wsl2/wsl2_install/</guid>
       <description>安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws</description>
     </item>
     

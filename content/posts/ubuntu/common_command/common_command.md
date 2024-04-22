@@ -56,3 +56,11 @@ conda config --set show_channel_urls yes
 设为默认：`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
 
 [pypi | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
+
+## 根据 PID 来查看详细的进程信息
+
+``` shell
+ps -f -p 2508841
+```
+
+[Ubuntu进程管理查看当前GPU占用情况及哪个用户在使用 - DuanYongchun - 博客园 (cnblogs.com)](https://www.cnblogs.com/dyc99/p/14597853.html)

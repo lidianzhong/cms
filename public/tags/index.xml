@@ -2,134 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🧩 标签 on Dawn Journey</title>
-    <link>https://lidianzhong.gitee.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in 🧩 标签 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 19 Apr 2024 16:56:28 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 02:32:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network</title>
+      <link>http://localhost:1313/tags/network/</link>
+      <pubDate>Sat, 20 Apr 2024 02:32:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/network/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Gpu</title>
-      <link>https://lidianzhong.gitee.io/tags/gpu/</link>
+      <link>http://localhost:1313/tags/gpu/</link>
       <pubDate>Fri, 19 Apr 2024 16:56:28 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/gpu/</guid>
+      <guid>http://localhost:1313/tags/gpu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conda</title>
-      <link>https://lidianzhong.gitee.io/tags/conda/</link>
+      <link>http://localhost:1313/tags/conda/</link>
       <pubDate>Tue, 16 Apr 2024 13:52:25 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/conda/</guid>
+      <guid>http://localhost:1313/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>https://lidianzhong.gitee.io/tags/ubuntu/</link>
+      <link>http://localhost:1313/tags/ubuntu/</link>
       <pubDate>Tue, 16 Apr 2024 01:20:57 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/ubuntu/</guid>
+      <guid>http://localhost:1313/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>汇编</title>
-      <link>https://lidianzhong.gitee.io/tags/%E6%B1%87%E7%BC%96/</link>
+      <link>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</link>
       <pubDate>Mon, 15 Apr 2024 19:14:13 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/%E6%B1%87%E7%BC%96/</guid>
+      <guid>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://lidianzhong.gitee.io/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NodeMCU</title>
-      <link>https://lidianzhong.gitee.io/tags/nodemcu/</link>
+      <link>http://localhost:1313/tags/nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/nodemcu/</guid>
+      <guid>http://localhost:1313/tags/nodemcu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>嵌入式</title>
-      <link>https://lidianzhong.gitee.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</link>
+      <link>http://localhost:1313/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BUG</title>
-      <link>https://lidianzhong.gitee.io/tags/bug/</link>
+      <link>http://localhost:1313/tags/bug/</link>
       <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/bug/</guid>
+      <guid>http://localhost:1313/tags/bug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ros</title>
-      <link>https://lidianzhong.gitee.io/tags/ros/</link>
+      <link>http://localhost:1313/tags/ros/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/ros/</guid>
+      <guid>http://localhost:1313/tags/ros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安装</title>
-      <link>https://lidianzhong.gitee.io/tags/%E5%AE%89%E8%A3%85/</link>
+      <link>http://localhost:1313/tags/%E5%AE%89%E8%A3%85/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/%E5%AE%89%E8%A3%85/</guid>
+      <guid>http://localhost:1313/tags/%E5%AE%89%E8%A3%85/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Overview</title>
-      <link>https://lidianzhong.gitee.io/tags/overview/</link>
+      <link>http://localhost:1313/tags/overview/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/overview/</guid>
+      <guid>http://localhost:1313/tags/overview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robot</title>
-      <link>https://lidianzhong.gitee.io/tags/robot/</link>
+      <link>http://localhost:1313/tags/robot/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/robot/</guid>
+      <guid>http://localhost:1313/tags/robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulation</title>
-      <link>https://lidianzhong.gitee.io/tags/simulation/</link>
+      <link>http://localhost:1313/tags/simulation/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/simulation/</guid>
+      <guid>http://localhost:1313/tags/simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://lidianzhong.gitee.io/tags/git/</link>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/tags/git/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
     </item>
     

@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>GPU 相关 | Dawn Journey</title>
 <meta name="keywords" content="">
-<meta name="description" content="cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 CUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com) ubuntu下安装多版本cuda及版本切换教程_ubuntu切换">
+<meta name="description" content="cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 切换 cuda 版本的命令如下 # &lt;version&gt; 须切换的CUDA版本号 export PATH=/usr/local/cuda-&lt;version&gt;/bin${PATH:&#43;:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-&lt;version&gt;/lib64${LD_LIBRARY_PATH:&#43;:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Lin">
 <meta name="author" content="Leo">
-<link rel="canonical" href="https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/">
+<link rel="canonical" href="http://localhost:1313/posts/ubuntu/py_environment/graphics_card/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="icon" type="image/png" sizes="16x16" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="icon" type="image/png" sizes="32x32" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="apple-touch-icon" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="mask-icon" href="https://lidianzhong.gitee.io/img/Q.gif">
+<link rel="icon" href="http://localhost:1313/img/Q.gif">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/Q.gif">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/img/Q.gif">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/Q.gif">
+<link rel="mask-icon" href="http://localhost:1313/img/Q.gif">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/ubuntu/py_environment/graphics_card/">
 <noscript>
     <style>
         #theme-toggle,
@@ -47,15 +47,15 @@ var _hmt = _hmt || [];
 })();
 </script>
 <meta property="og:title" content="GPU 相关" />
-<meta property="og:description" content="cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 CUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com) ubuntu下安装多版本cuda及版本切换教程_ubuntu切换" />
+<meta property="og:description" content="cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 切换 cuda 版本的命令如下 # &lt;version&gt; 须切换的CUDA版本号 export PATH=/usr/local/cuda-&lt;version&gt;/bin${PATH:&#43;:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-&lt;version&gt;/lib64${LD_LIBRARY_PATH:&#43;:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Lin" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/posts/ubuntu/py_environment/graphics_card/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-04-19T16:56:28+08:00" />
 <meta property="article:modified_time" content="2024-04-19T16:56:28+08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="GPU 相关"/>
-<meta name="twitter:description" content="cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 CUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com) ubuntu下安装多版本cuda及版本切换教程_ubuntu切换"/>
+<meta name="twitter:description" content="cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 切换 cuda 版本的命令如下 # &lt;version&gt; 须切换的CUDA版本号 export PATH=/usr/local/cuda-&lt;version&gt;/bin${PATH:&#43;:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-&lt;version&gt;/lib64${LD_LIBRARY_PATH:&#43;:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Lin"/>
 
 
 <script type="application/ld+json">
@@ -68,27 +68,27 @@ var _hmt = _hmt || [];
           "@type": "ListItem",
           "position":  1 ,
           "name": "📚文章",
-          "item": "https://lidianzhong.gitee.io/posts/"
+          "item": "http://localhost:1313/posts/"
         },
 
         {
           "@type": "ListItem",
           "position":  2 ,
           "name": "🟠 Ubuntu",
-          "item": "https://lidianzhong.gitee.io/posts/ubuntu/"
+          "item": "http://localhost:1313/posts/ubuntu/"
         },
 
         {
           "@type": "ListItem",
           "position":  3 ,
           "name": "Python 环境相关",
-          "item": "https://lidianzhong.gitee.io/posts/ubuntu/py_environment/"
+          "item": "http://localhost:1313/posts/ubuntu/py_environment/"
         }, 
     {
       "@type": "ListItem",
       "position":  4 ,
       "name": "GPU 相关",
-      "item": "https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/"
+      "item": "http://localhost:1313/posts/ubuntu/py_environment/graphics_card/"
     }
   ]
 }
@@ -99,12 +99,12 @@ var _hmt = _hmt || [];
   "@type": "BlogPosting",
   "headline": "GPU 相关",
   "name": "GPU 相关",
-  "description": "cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 CUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com) ubuntu下安装多版本cuda及版本切换教程_ubuntu切换",
+  "description": "cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 切换 cuda 版本的命令如下 # \u0026lt;version\u0026gt; 须切换的CUDA版本号 export PATH=/usr/local/cuda-\u0026lt;version\u0026gt;/bin${PATH:+:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-\u0026lt;version\u0026gt;/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Lin",
   "keywords": [
     ""
   ],
-  "articleBody": "cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。\n查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。\ncuda 版本支持切换，主要是根据 PATH 中的指向来确定的\nCUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com)\nubuntu下安装多版本cuda及版本切换教程_ubuntu切换cuda版本-CSDN博客\n根据 PID 来查看详细的进程信息 ps -f -p 2508841 Ubuntu进程管理查看当前GPU占用情况及哪个用户在使用 - DuanYongchun - 博客园 (cnblogs.com)\n",
-  "wordCount" : "206",
+  "articleBody": "cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。\n查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。\ncuda 版本支持切换，主要是根据 PATH 中的指向来确定的\n切换 cuda 版本的命令如下\n# 须切换的CUDA版本号 export PATH=/usr/local/cuda-/bin${PATH:+:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Linux 和 Windows）_修改cuda版本-CSDN博客\nCUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com)\nubuntu下安装多版本cuda及版本切换教程_ubuntu切换cuda版本-CSDN博客\n",
+  "wordCount" : "236",
   "inLanguage": "zh",
   "datePublished": "2024-04-19T16:56:28+08:00",
   "dateModified": "2024-04-19T16:56:28+08:00",
@@ -114,14 +114,14 @@ var _hmt = _hmt || [];
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/"
+    "@id": "http://localhost:1313/posts/ubuntu/py_environment/graphics_card/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Dawn Journey",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://lidianzhong.gitee.io/img/Q.gif"
+      "url": "http://localhost:1313/img/Q.gif"
     }
   }
 }
@@ -139,8 +139,8 @@ var _hmt = _hmt || [];
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://lidianzhong.gitee.io/" accesskey="h" title="Dawn Journey (Alt + H)">
-            <img src="https://lidianzhong.gitee.io/img/Q.gif" alt="logo" aria-label="logo"
+            <a href="http://localhost:1313/" accesskey="h" title="Dawn Journey (Alt + H)">
+            <img src="http://localhost:1313/img/Q.gif" alt="logo" aria-label="logo"
                  height="35">Dawn Journey</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -172,32 +172,32 @@ var _hmt = _hmt || [];
         </div>
         <ul id="menu">
             <li>
-                <a href="https://lidianzhong.gitee.io/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
                 <span>🔍 搜索</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/" title="🏠 主页">
+                <a href="http://localhost:1313/" title="🏠 主页">
                 <span>🏠 主页</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/posts" title="📚 文章">
+                <a href="http://localhost:1313/posts" title="📚 文章">
                 <span>📚 文章</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/tags" title="🧩 标签">
+                <a href="http://localhost:1313/tags" title="🧩 标签">
                 <span>🧩 标签</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/archives/" title="⏱️ 时间轴">
+                <a href="http://localhost:1313/archives/" title="⏱️ 时间轴">
                 <span>⏱️ 时间轴</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/about" title="🙋🏻‍♂️ 关于">
+                <a href="http://localhost:1313/about" title="🙋🏻‍♂️ 关于">
                 <span>🙋🏻‍♂️ 关于</span>
                 </a>
             </li>
@@ -216,7 +216,7 @@ var _hmt = _hmt || [];
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="https://lidianzhong.gitee.io/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://lidianzhong.gitee.io/posts/">📚文章</a>&nbsp;»&nbsp;<a href="https://lidianzhong.gitee.io/posts/ubuntu/">🟠 Ubuntu</a>&nbsp;»&nbsp;<a href="https://lidianzhong.gitee.io/posts/ubuntu/py_environment/">Python 环境相关</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/ubuntu/">🟠 Ubuntu</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/ubuntu/py_environment/">Python 环境相关</a></div>
             <h1 class="post-title">
                 GPU 相关
             </h1>
@@ -252,7 +252,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>206字
+        <span>236字
             &nbsp;&nbsp;
         </span>
     </span>
@@ -272,7 +272,7 @@ var _hmt = _hmt || [];
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="https://lidianzhong.gitee.io/tags/gpu/" style="color: var(--secondary)!important;">Gpu</a>
+                <a href="http://localhost:1313/tags/gpu/" style="color: var(--secondary)!important;">Gpu</a>
             </span>
         </span>
     </span>
@@ -293,7 +293,7 @@ var _hmt = _hmt || [];
                             <script>
                                 let url = document.documentURI
                                 
-                                let dnsUrl = "https://lidianzhong.gitee.io/"
+                                let dnsUrl = "http://localhost:1313/"
                                 let urlSplit = url.split(dnsUrl)
                                 let finalUrl = urlSplit[1]
                                 if (finalUrl[0] !== '/') {
@@ -334,9 +334,7 @@ var _hmt = _hmt || [];
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#cuda-%e7%89%88%e6%9c%ac%e7%9a%84%e9%97%ae%e9%a2%98" aria-label="cuda 版本的问题">cuda 版本的问题</a></li>
-                <li>
-                    <a href="#%e6%a0%b9%e6%8d%ae-pid-%e6%9d%a5%e6%9f%a5%e7%9c%8b%e8%af%a6%e7%bb%86%e7%9a%84%e8%bf%9b%e7%a8%8b%e4%bf%a1%e6%81%af" aria-label="根据 PID 来查看详细的进程信息">根据 PID 来查看详细的进程信息</a>
+                    <a href="#cuda-%e7%89%88%e6%9c%ac%e7%9a%84%e9%97%ae%e9%a2%98" aria-label="cuda 版本的问题">cuda 版本的问题</a>
                 </li>
             </ul>
         </div>
@@ -407,11 +405,13 @@ var _hmt = _hmt || [];
 <p>使用 <code>nvidia-smi</code> 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。</p>
 <p>查看当前 cuda 版本的命令是使用 <code>nvcc -V</code> 命令，显示的 cuda 版本。</p>
 <p>cuda 版本支持切换，主要是根据 PATH 中的指向来确定的</p>
+<p>切换 cuda 版本的命令如下</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># &lt;version&gt; 须切换的CUDA版本号</span>
+</span></span><span style="display:flex;"><span>export PATH<span style="color:#f92672">=</span>/usr/local/cuda-&lt;version&gt;/bin<span style="color:#e6db74">${</span>PATH:+:<span style="color:#e6db74">${</span>PATH<span style="color:#e6db74">}}</span> 
+</span></span><span style="display:flex;"><span>export LD_LIBRARY_PATH<span style="color:#f92672">=</span>/usr/local/cuda-&lt;version&gt;/lib64<span style="color:#e6db74">${</span>LD_LIBRARY_PATH:+:<span style="color:#e6db74">${</span>LD_LIBRARY_PATH<span style="color:#e6db74">}}</span>
+</span></span></code></pre></div><p>[<a href="https://blog.csdn.net/weixin_43305485/article/details/130413708">解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Linux 和 Windows）_修改cuda版本-CSDN博客</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/520536351">CUDA的正确安装/升级/重装/使用方式 - 知乎 (zhihu.com)</a></p>
 <p><a href="https://blog.csdn.net/weixin_44120025/article/details/121002696">ubuntu下安装多版本cuda及版本切换教程_ubuntu切换cuda版本-CSDN博客</a></p>
-<h2 id="根据-pid-来查看详细的进程信息">根据 PID 来查看详细的进程信息<a hidden class="anchor" aria-hidden="true" href="#根据-pid-来查看详细的进程信息">#</a></h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>ps -f -p <span style="color:#ae81ff">2508841</span>
-</span></span></code></pre></div><p><a href="https://www.cnblogs.com/dyc99/p/14597853.html">Ubuntu进程管理查看当前GPU占用情况及哪个用户在使用 - DuanYongchun - 博客园 (cnblogs.com)</a></p>
 
 
         </div>
@@ -419,12 +419,12 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="https://lidianzhong.gitee.io/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/">
+  <a class="prev" href="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/">
     <span class="title">« 上一页</span>
     <br>
-    <span>机器人仿真与控制框架</span>
+    <span>局域网访问WSL2服务</span>
   </a>
-  <a class="next" href="https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/">
+  <a class="next" href="http://localhost:1313/posts/ubuntu/py_environment/conda_command/">
     <span class="title">下一页 »</span>
     <br>
     <span>Conda 常用命令汇总</span>
@@ -475,7 +475,7 @@ var _hmt = _hmt || [];
         Copyright
         &copy;
         2024-2024
-        <a href="https://lidianzhong.gitee.io/" style="color:#939393;">Dawn Journey</a>
+        <a href="http://localhost:1313/" style="color:#939393;">Dawn Journey</a>
         All Rights Reserved
     </span>
     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;"></a>&nbsp;
