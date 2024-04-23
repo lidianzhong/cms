@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>💡 嵌入式系统 on Dawn Journey</title>
-    <link>http://localhost:1313/posts/embedded_system/</link>
+    <link>https://lidianzhong.gitee.io/posts/embedded_system/</link>
     <description>Recent content in 💡 嵌入式系统 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 21 Apr 2024 13:07:22 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/embedded_system/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Apr 2024 13:07:22 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/embedded_system/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NodeMCU &#43; esp8266 入门</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</link>
       <pubDate>Sun, 21 Apr 2024 13:07:22 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NodeMCU 简介</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</guid>
       <description>ESP8266 ESP8266 利用 WiFi 联网时有三种工作模式。 Station 模式：工作在 Station 模式下的 ESP8266 就像是一个接收机一样，它可以接收来自无线路由器发出的信号。ESP8266 模块通过路由器连接互联网，手机或电脑通过互联网实现对设备的远程控制。 SoftAP 模式：无线接入点的简称，ESP8266 模块作为热点，实现手机或电脑直接与模块通信</description>
     </item>
     
     <item>
       <title>NodeMCU 编程遇到的问题</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
       <description>1. command ‘platformio-ide.build‘ not found 解决：关闭 Vscode 再打开就好了~ 2. PlatformIO串口显示乱码 解决：串口监视器和单片机波特率不一致 [env:nodemcuv2] platform = espressif8266 board = nodemcuv2 framework = esp8266-rtos-sdk monitor_speed = 74880 ; 监视器波特率设置 monitor_port = COM3 ; 监视器端口设置，设置为连接的串口端口 3. PlatformIO串口显示开头乱码 原因：</description>
     </item>
     
     <item>
       <title>嵌入式常用命令汇总</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/common_commands/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</link>
       <pubDate>Fri, 12 Apr 2024 00:57:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/common_commands/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</guid>
       <description>嵌入式命令 查看已经安装的驱动：sudo dmesg 查看安装的串口设备：ls -l /dev/ttyS* 查看安装的USB转串口设备：ls -l /dev/ttyS* 查看系统日志关于串口设备的信息：dmesg | grep ttyS 查看 ttyS0 驱动的安装时间：ls -l /dev/ttyS0 Windows 下查看端口命令 通用方法，Win + X，选择设备管理器，查看 COM 端口，也可点击属性信息查看 PlatformIO Vscode 开发，点</description>
     </item>
     

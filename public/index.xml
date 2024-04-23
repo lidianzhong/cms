@@ -2,251 +2,251 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dawn Journey</title>
-    <link>http://localhost:1313/</link>
+    <link>https://lidianzhong.gitee.io/</link>
     <description>Recent content on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 23 Apr 2024 01:13:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Apr 2024 01:13:21 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python 语法</title>
-      <link>http://localhost:1313/posts/python/grammar/</link>
+      <link>https://lidianzhong.gitee.io/posts/python/grammar/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/python/grammar/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/python/grammar/</guid>
       <description>__init__.py 的作用 用于告诉 Python 解释器，该目录是一个包，而不仅仅是一个普通的目录。这样你就可以使用 import 来导入目录中的模块 同时在 init.py 文件中你也可以做一些必要的设置、定义一些变量等等。</description>
     </item>
     
     <item>
       <title>go2 控制器方案</title>
-      <link>http://localhost:1313/posts/robot/draft/plan/</link>
+      <link>https://lidianzhong.gitee.io/posts/robot/draft/plan/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/draft/plan/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/robot/draft/plan/</guid>
       <description>go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /</description>
     </item>
     
     <item>
       <title>安装汇总</title>
-      <link>http://localhost:1313/posts/robot/draft/install_draft/</link>
+      <link>https://lidianzhong.gitee.io/posts/robot/draft/install_draft/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/draft/install_draft/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/robot/draft/install_draft/</guid>
       <description>安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本</description>
     </item>
     
     <item>
       <title>四足机器人概述</title>
-      <link>http://localhost:1313/posts/robot/robot_book/1_overview/</link>
+      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/1_overview/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/robot_book/1_overview/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/1_overview/</guid>
       <description>介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric</description>
     </item>
     
     <item>
       <title>机器人仿真与控制框架</title>
-      <link>http://localhost:1313/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
+      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
       <description>ROS与Gazebo ROS 中将每一个进程视作一个节点（Node），节点之间的通信方式依靠：话题（Topic）、服务（Service）、参数（Parameter）。 控制器（Controller）与仿真（Gazebo）就是两个节点，利用 topic通信。 过程是：控制器从Gazebo读取机器</description>
     </item>
     
     <item>
       <title>字符编码问题</title>
-      <link>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Tue, 23 Apr 2024 01:13:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
       <description>出现 LF will be replaced by CRLF in ****** 解决方法：git config core.autocrlf false</description>
     </item>
     
     <item>
       <title>Representation Learning</title>
-      <link>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</link>
+      <link>https://lidianzhong.gitee.io/posts/machinelearning/deeplearning/representationlearning/</link>
       <pubDate>Mon, 22 Apr 2024 03:18:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/machinelearning/deeplearning/representationlearning/</guid>
       <description>什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决</description>
     </item>
     
     <item>
       <title>磁盘空间不足</title>
-      <link>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</link>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</link>
       <pubDate>Mon, 22 Apr 2024 02:15:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</guid>
       <description>原因分析 使用 df -h 发现，根目录的挂载 / 点的磁盘空间满了，然后发现是 docker 的原因，占用空间太大 解决方法 删除 docker Overlay2 中的部分内容 具体执行 参考：记录一次docker Overlay2占用磁盘空间99%的清理过程 | Laravel China 社区 (learnku.com)</description>
     </item>
     
     <item>
       <title>常用命令</title>
-      <link>http://localhost:1313/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Mon, 22 Apr 2024 01:06:08 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NodeMCU &#43; esp8266 入门</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</link>
       <pubDate>Sun, 21 Apr 2024 13:07:22 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>机器学习中的潜变量</title>
-      <link>http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</link>
+      <link>https://lidianzhong.gitee.io/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</link>
       <pubDate>Sat, 20 Apr 2024 12:55:44 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</guid>
       <description>什么是潜变量 潜变量，潜在变量，与观测变量相对，意思是不可观测的随机变量。 那么潜变量可以被推断出来吗？可以。通过数学模型依据观测得的数据可推断潜在变量。其中用潜在变量解释观测变量的数学模型称为潜变量模型。 潜变量和现实一些因素是有关系的，测量这些因素表面上可行，实际上很困难，这些通常</description>
     </item>
     
     <item>
       <title>局域网访问WSL2服务</title>
-      <link>http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</link>
       <pubDate>Sat, 20 Apr 2024 02:32:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</guid>
       <description>在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn</description>
     </item>
     
     <item>
       <title>GPU 相关</title>
-      <link>http://localhost:1313/posts/ubuntu/py_environment/graphics_card/</link>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/</link>
       <pubDate>Fri, 19 Apr 2024 16:56:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/py_environment/graphics_card/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/graphics_card/</guid>
       <description>cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 切换 cuda 版本的命令如下 # &amp;lt;version&amp;gt; 须切换的CUDA版本号 export PATH=/usr/local/cuda-&amp;lt;version&amp;gt;/bin${PATH:+:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-&amp;lt;version&amp;gt;/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda不同版本進行切換（含Lin</description>
     </item>
     
     <item>
       <title>Conda 常用命令汇总</title>
-      <link>http://localhost:1313/posts/ubuntu/py_environment/conda_command/</link>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</link>
       <pubDate>Tue, 16 Apr 2024 13:52:25 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/py_environment/conda_command/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</guid>
       <description>卸载 Conda 环境 conda env remove --name myenv</description>
     </item>
     
     <item>
       <title>Wsl2_problem</title>
-      <link>http://localhost:1313/posts/tools/wsl2/wsl2_problem/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</link>
       <pubDate>Tue, 16 Apr 2024 13:13:20 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/wsl2/wsl2_problem/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/</guid>
       <description>安装问题 无法解析的服务器名称，Error code: Wsl/WININET_E_NAME_NOT_RESOLVED PS C:\Users\DianzhongLi&amp;gt; wsl --list --online 无法从“https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json”中提取列表分发。无法解析服务器的名称</description>
     </item>
     
     <item>
       <title>Wsl2_install</title>
-      <link>http://localhost:1313/posts/tools/wsl2/wsl2_install/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</link>
       <pubDate>Tue, 16 Apr 2024 01:25:45 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/wsl2/wsl2_install/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/</guid>
       <description>安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws</description>
     </item>
     
     <item>
       <title>Ubuntu 常用命令汇总</title>
-      <link>http://localhost:1313/posts/ubuntu/common_command/common_command/</link>
+      <link>https://lidianzhong.gitee.io/posts/ubuntu/common_command/common_command/</link>
       <pubDate>Tue, 16 Apr 2024 01:20:57 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/common_command/common_command/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/ubuntu/common_command/common_command/</guid>
       <description>apt 清华源 配置地址：/etc/apt/sources.list ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror 解压 tar.gz 文件 tar -xzvf filename.tar.gz 清华 conda 镜像 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/ conda config --set show_channel_urls yes pip 清华源 临时使用：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package 设为默认：pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple pypi | 镜像站使用帮助 | 清华大学开源软件</description>
     </item>
     
     <item>
       <title>内存访问</title>
-      <link>http://localhost:1313/posts/assembly/memory_location/</link>
+      <link>https://lidianzhong.gitee.io/posts/assembly/memory_location/</link>
       <pubDate>Mon, 15 Apr 2024 19:14:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/assembly/memory_location/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/assembly/memory_location/</guid>
       <description>使用间接寻址访问内存中的指令 [0] 表示访问内存地址为 0 的位置，[bx] 表示访问内存地址为 bx 寄存器值的位置。 ; 从内存地址为 0x1000 的位置读取一个字节 mov bx, 0x1000 ; 将 0x1000 存入 bx 寄存器 mov al, [bx] ; 从内存地址为 bx 的位置读取一个字节，存入 al 寄存器 使用 and 和 or 实现内存定位 and 指令：按位进行与运算，可以将相应位设为0，</description>
     </item>
     
     <item>
       <title>NodeMCU 简介</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/nodemcu/</guid>
       <description>ESP8266 ESP8266 利用 WiFi 联网时有三种工作模式。 Station 模式：工作在 Station 模式下的 ESP8266 就像是一个接收机一样，它可以接收来自无线路由器发出的信号。ESP8266 模块通过路由器连接互联网，手机或电脑通过互联网实现对设备的远程控制。 SoftAP 模式：无线接入点的简称，ESP8266 模块作为热点，实现手机或电脑直接与模块通信</description>
     </item>
     
     <item>
       <title>NodeMCU 编程遇到的问题</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
       <description>1. command ‘platformio-ide.build‘ not found 解决：关闭 Vscode 再打开就好了~ 2. PlatformIO串口显示乱码 解决：串口监视器和单片机波特率不一致 [env:nodemcuv2] platform = espressif8266 board = nodemcuv2 framework = esp8266-rtos-sdk monitor_speed = 74880 ; 监视器波特率设置 monitor_port = COM3 ; 监视器端口设置，设置为连接的串口端口 3. PlatformIO串口显示开头乱码 原因：</description>
     </item>
     
     <item>
       <title>嵌入式常用命令汇总</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/common_commands/</link>
+      <link>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</link>
       <pubDate>Fri, 12 Apr 2024 00:57:30 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/common_commands/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/embedded_system/nodemcu/common_commands/</guid>
       <description>嵌入式命令 查看已经安装的驱动：sudo dmesg 查看安装的串口设备：ls -l /dev/ttyS* 查看安装的USB转串口设备：ls -l /dev/ttyS* 查看系统日志关于串口设备的信息：dmesg | grep ttyS 查看 ttyS0 驱动的安装时间：ls -l /dev/ttyS0 Windows 下查看端口命令 通用方法，Win + X，选择设备管理器，查看 COM 端口，也可点击属性信息查看 PlatformIO Vscode 开发，点</description>
     </item>
     
     <item>
       <title>ros 相关的安装</title>
-      <link>http://localhost:1313/posts/robot/ros/ros_about/</link>
+      <link>https://lidianzhong.gitee.io/posts/robot/ros/ros_about/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/ros/ros_about/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/robot/ros/ros_about/</guid>
       <description>安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本和 python3 版本</description>
     </item>
     
     <item>
       <title>🤝友链</title>
-      <link>http://localhost:1313/links/</link>
+      <link>https://lidianzhong.gitee.io/links/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/links/</guid>
+      <guid>https://lidianzhong.gitee.io/links/</guid>
       <description>Dawn Journey 在黎明的微光中，我们踏上了一场绚丽的旅程 👉友链格式 名称： Dawn Journey 网址： https://lidianzhong.gitee.io/ 图标： https://lidianzhong.gitee.io/img/Q.gif 描述： 在黎明的微光中，我们踏上了一场绚丽的旅程</description>
     </item>
     
     <item>
       <title>Git 命令汇总</title>
-      <link>http://localhost:1313/posts/tools/git/git-command-overall/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/git/git-command-overall/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</guid>
       <description>Git 命令汇总 1. 分支相关 1.1 查看当前分支 git branch 1.2 创建一个新分支并切换到这个分支 git checkout -b dev # 创建新分支 dev 并切换到它 1.3 切换到某个分支 git checkout test # 切换到 test 分支 1.4 删除分支 git branch -d test # 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除 1.5 重命名分支 git branch -m &amp;lt;old_branch_name&amp;gt; &amp;lt;new_branch_name&amp;gt; 2. 撤销相关 2.1 撤销最近的一次提交 git reset --hard HEAD~1 # 撤销最近的</description>
     </item>
     
     <item>
       <title>解决Git同步访问慢的问题</title>
-      <link>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</guid>
       <description>在我们想要将本地的代码提交到Github远程仓库时，会因为网络问题，拉取失败。 解决Git提交拉取时的网络问题 查询以下网址对应的DNS服务器地址: DNS查询工具 github.com github.global.ssl.fastly.net assets-cdn.github.com 修改 hosts 文件 20.205.243.166 github.com 66.220.148.145 github.global.ssl.fastly.net 185.199.111.153 assets-cdn.github.com # https://tool.chinaz.com/dns/github.com # https://tool.chinaz.com/dns/github.global.ssl.fastly.net # https://tool.chinaz.com/dns/assets-cdn.github.com 解决 Git clone 时的网络问题 加个fast：https://github.com/ 改为 https://githubfast.com/ 使用</description>
     </item>
     
     <item>
       <title>四足机器人关节电机</title>
-      <link>http://localhost:1313/posts/robot/robot_book/2_guan_jie_dian_ji/</link>
+      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/2_guan_jie_dian_ji/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/robot_book/2_guan_jie_dian_ji/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/2_guan_jie_dian_ji/</guid>
       <description>后续开发的算法，最终结果都是生成发送给这12个关节电机的命令 四足机器人的动力系统 1. 永磁同步电机（PMSM） 通过控制定子上三个线圈的电流，可以控制电机的力矩和角度。这种控制方法叫做矢量控制（FOC）。 2. 关节电机的混合控制 关节电机的内部，已经封装了电机底层的控制算法。作为用户，只要给</description>
     </item>
     
     <item>
       <title>🙋🏻‍♂️关于</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://lidianzhong.gitee.io/about/</link>
       <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://lidianzhong.gitee.io/about/</guid>
       <description>关于我 Dawn Journey 在黎明的微光中，我们踏上了一场绚丽的旅程 一首诗 轮台东门送君去，去时雪满天山路。 峰回路转不见君，雪上空留马行处。 本站建于 2024 年 4 月 1 日</description>
     </item>
     

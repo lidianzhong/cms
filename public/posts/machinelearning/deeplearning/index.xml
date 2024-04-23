@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>深度学习 on Dawn Journey</title>
-    <link>http://localhost:1313/posts/machinelearning/deeplearning/</link>
+    <link>https://lidianzhong.gitee.io/posts/machinelearning/deeplearning/</link>
     <description>Recent content in 深度学习 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 22 Apr 2024 03:18:36 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/machinelearning/deeplearning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Apr 2024 03:18:36 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/machinelearning/deeplearning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Representation Learning</title>
-      <link>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</link>
+      <link>https://lidianzhong.gitee.io/posts/machinelearning/deeplearning/representationlearning/</link>
       <pubDate>Mon, 22 Apr 2024 03:18:36 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/machinelearning/deeplearning/representationlearning/</guid>
       <description>什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决</description>
     </item>
     

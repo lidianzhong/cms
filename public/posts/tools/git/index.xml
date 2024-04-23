@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Dawn Journey</title>
-    <link>http://localhost:1313/posts/tools/git/</link>
+    <link>https://lidianzhong.gitee.io/posts/tools/git/</link>
     <description>Recent content in Git on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 01 Apr 2024 01:09:33 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/tools/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 01:09:33 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/tools/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 命令汇总</title>
-      <link>http://localhost:1313/posts/tools/git/git-command-overall/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/git/git-command-overall/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/git/git-command-overall/</guid>
       <description>Git 命令汇总 1. 分支相关 1.1 查看当前分支 git branch 1.2 创建一个新分支并切换到这个分支 git checkout -b dev # 创建新分支 dev 并切换到它 1.3 切换到某个分支 git checkout test # 切换到 test 分支 1.4 删除分支 git branch -d test # 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除 1.5 重命名分支 git branch -m &amp;lt;old_branch_name&amp;gt; &amp;lt;new_branch_name&amp;gt; 2. 撤销相关 2.1 撤销最近的一次提交 git reset --hard HEAD~1 # 撤销最近的</description>
     </item>
     
     <item>
       <title>解决Git同步访问慢的问题</title>
-      <link>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</link>
+      <link>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/tools/git/solve-git-slow-problem/</guid>
       <description>在我们想要将本地的代码提交到Github远程仓库时，会因为网络问题，拉取失败。 解决Git提交拉取时的网络问题 查询以下网址对应的DNS服务器地址: DNS查询工具 github.com github.global.ssl.fastly.net assets-cdn.github.com 修改 hosts 文件 20.205.243.166 github.com 66.220.148.145 github.global.ssl.fastly.net 185.199.111.153 assets-cdn.github.com # https://tool.chinaz.com/dns/github.com # https://tool.chinaz.com/dns/github.global.ssl.fastly.net # https://tool.chinaz.com/dns/assets-cdn.github.com 解决 Git clone 时的网络问题 加个fast：https://github.com/ 改为 https://githubfast.com/ 使用</description>
     </item>
     

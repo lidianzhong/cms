@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🔌汇编 on Dawn Journey</title>
-    <link>http://localhost:1313/posts/assembly/</link>
+    <link>https://lidianzhong.gitee.io/posts/assembly/</link>
     <description>Recent content in 🔌汇编 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 15 Apr 2024 19:14:13 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/assembly/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 19:14:13 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/assembly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>内存访问</title>
-      <link>http://localhost:1313/posts/assembly/memory_location/</link>
+      <link>https://lidianzhong.gitee.io/posts/assembly/memory_location/</link>
       <pubDate>Mon, 15 Apr 2024 19:14:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/assembly/memory_location/</guid>
+      <guid>https://lidianzhong.gitee.io/posts/assembly/memory_location/</guid>
       <description>使用间接寻址访问内存中的指令 [0] 表示访问内存地址为 0 的位置，[bx] 表示访问内存地址为 bx 寄存器值的位置。 ; 从内存地址为 0x1000 的位置读取一个字节 mov bx, 0x1000 ; 将 0x1000 存入 bx 寄存器 mov al, [bx] ; 从内存地址为 bx 的位置读取一个字节，存入 al 寄存器 使用 and 和 or 实现内存定位 and 指令：按位进行与运算，可以将相应位设为0，</description>
     </item>
     
