@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>四足机器人概述 | Dawn Journey</title>
+<title>go2 控制器方案 | Dawn Journey</title>
 <meta name="keywords" content="">
-<meta name="description" content="介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric">
+<meta name="description" content="go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /">
 <meta name="author" content="Leo">
-<link rel="canonical" href="http://localhost:1313/posts/robot/robot_book/1_overview/">
+<link rel="canonical" href="http://localhost:1313/posts/robot/draft/plan/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="http://localhost:1313/img/Q.gif">
@@ -19,7 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/img/Q.gif">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/robot/robot_book/1_overview/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/robot/draft/plan/">
 <noscript>
     <style>
         #theme-toggle,
@@ -44,16 +44,16 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-<meta property="og:title" content="四足机器人概述" />
-<meta property="og:description" content="介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric" />
+<meta property="og:title" content="go2 控制器方案" />
+<meta property="og:description" content="go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/robot/robot_book/1_overview/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-04-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-04-02T00:00:00+00:00" />
+<meta property="og:url" content="http://localhost:1313/posts/robot/draft/plan/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-10T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="四足机器人概述"/>
-<meta name="twitter:description" content="介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric"/>
+<meta name="twitter:title" content="go2 控制器方案"/>
+<meta name="twitter:description" content="go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /"/>
 
 
 <script type="application/ld+json">
@@ -79,14 +79,14 @@ var _hmt = _hmt || [];
         {
           "@type": "ListItem",
           "position":  3 ,
-          "name": "📘 《四足机器人控制算法》",
-          "item": "http://localhost:1313/posts/robot/robot_book/"
+          "name": "📜 草稿",
+          "item": "http://localhost:1313/posts/robot/draft/"
         }, 
     {
       "@type": "ListItem",
       "position":  4 ,
-      "name": "四足机器人概述",
-      "item": "http://localhost:1313/posts/robot/robot_book/1_overview/"
+      "name": "go2 控制器方案",
+      "item": "http://localhost:1313/posts/robot/draft/plan/"
     }
   ]
 }
@@ -95,24 +95,24 @@ var _hmt = _hmt || [];
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "四足机器人概述",
-  "name": "四足机器人概述",
-  "description": "介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric",
+  "headline": "go2 控制器方案",
+  "name": "go2 控制器方案",
+  "description": "go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /",
   "keywords": [
     ""
   ],
-  "articleBody": " 介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述\n四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot\n麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah\n苏黎世联邦理工学院（ETH Zurich） 相关机器人：ANYmal\n宇树科技（Unitree Robotics）（国内） 相关机器人：Laikago、Aliengo、A1、Go1、Go2\n四足机器人的组成 动力系统 + 控制系统 + 通信系统 + 能源系统\n动力系统：核心是机器人关节电机，需要能够对关节力矩和角度进行精确控制。\n控制系统： 重点是控制算法，比如规划器和运动控制器，能够根据目标路径计算出各个关节需要执行的命令\n通信系统：各个关节电机、传感器、遥控手柄的通信\n能源系统：使用电池或者外部直流电源进行供电\n",
-  "wordCount" : "364",
+  "articleBody": "go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState\n发布：api/sport/request，类型为 unitree_api::msg::Request\nunitree_go::msg::SportModeState\nTimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); //步态类型 /* 步态类型 0.idle 1.trot 2.run 3.climb stair 4.forwardDownStair 9.adjust */ float footRaiseHeight(); //抬腿高度 std::array\u003cfloat, 3\u003e position(); //三维位置 float bodyHeight(); //机体高度 std::array\u003cfloat, 3\u003e velocity(); //三维速度 float yawSpeed(); //偏航速度 std::array\u003cfloat, 4\u003e rangeObstacle(); //障碍物距离 std::array\u003cint16_t, 4\u003e footForce(); //四个足端力 std::array\u003cfloat, 12\u003e footPositionBody(); //足端相对于机体的位置 std::array\u003cfloat, 12\u003e footSpeedBody(); //足端相对与机体的速度 std::array\u003cPathPoint, 10\u003e pathPoints(); //当前跟踪的路径点 unitree_api::msg::Request\nRequestHeader header string parameter uint8[] binary 对 unitree_api::msg::Request 中的 string parameter 参数进行解析：\n消息案例：\nParameter: [ { \"t_from_start\": 0.0, \"vx\":0.38878634572029114, \"vy\":0.0, \"vyaw\":0.0, \"x\":0.3143965005874634, \"y\":0.0, \"yaw\":0.0 } , { \"t_from_start\": 0.20000000298023224, \"vx\":0.35545676946640015, \"vy\":0.0, \"vyaw\":0.0, \"x\":0.3516397178173065, \"y\":0.0, \"yaw\":0.0 } , { \"t_from_start\": 0.4000000059604645, \"vx\":0.31857556104660034, \"vy\":0.0, \"vyaw\":0.0, \"x\":0.3853694498538971, \"y\":0.0, \"yaw\":0.0 } ....... ] 消息含义解释：\n\"t_from_start\": 从路径开始到达此点所需的时间。 \"vx\": 在此点的x方向上的期望速度。 \"vy\": 在此点的y方向上的期望速度。 \"vyaw\": 在此点的期望偏航速度。 \"x\": 此点的x坐标。 \"y\": 此点的y坐标。 \"yaw\": 此点的偏航角。 ",
+  "wordCount" : "413",
   "inLanguage": "zh",
-  "datePublished": "2024-04-02T00:00:00Z",
-  "dateModified": "2024-04-02T00:00:00Z",
+  "datePublished": "2024-04-10T00:00:00Z",
+  "dateModified": "2024-04-10T00:00:00Z",
   "author":{
     "@type": "Person",
     "name": "Leo"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/robot/robot_book/1_overview/"
+    "@id": "http://localhost:1313/posts/robot/draft/plan/"
   },
   "publisher": {
     "@type": "Organization",
@@ -214,9 +214,9 @@ var _hmt = _hmt || [];
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/robot/">🤖 四足机器人</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/robot/robot_book/">📘 《四足机器人控制算法》</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/robot/">🤖 四足机器人</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/robot/draft/">📜 草稿</a></div>
             <h1 class="post-title">
-                四足机器人概述
+                go2 控制器方案<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>
             </h1>
             <div class="post-meta">
 
@@ -237,7 +237,7 @@ var _hmt = _hmt || [];
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>2024-04-02
+        <span>2024-04-10
             &nbsp;&nbsp;
         </span>
     </span>
@@ -250,7 +250,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>364字
+        <span>413字
             &nbsp;&nbsp;
         </span>
     </span>
@@ -333,9 +333,7 @@ var _hmt = _hmt || [];
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#%e5%9b%9b%e8%b6%b3%e6%9c%ba%e5%99%a8%e4%ba%ba%e5%8f%91%e5%b1%95%e7%8e%b0%e7%8a%b6" aria-label="四足机器人发展现状">四足机器人发展现状</a></li>
-                <li>
-                    <a href="#%e5%9b%9b%e8%b6%b3%e6%9c%ba%e5%99%a8%e4%ba%ba%e7%9a%84%e7%bb%84%e6%88%90" aria-label="四足机器人的组成">四足机器人的组成</a>
+                    <a href="#go2-%e9%ab%98%e5%b1%82%e8%bf%90%e5%8a%a8" aria-label="go2 高层运动">go2 高层运动</a>
                 </li>
             </ul>
         </div>
@@ -402,34 +400,89 @@ var _hmt = _hmt || [];
         return rect.top + win.pageYOffset;
     }
 </script>
-        <div class="post-content"><blockquote>
-<p>介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述</p>
-</blockquote>
-<hr>
-<h3 id="四足机器人发展现状">四足机器人发展现状<a hidden class="anchor" aria-hidden="true" href="#四足机器人发展现状">#</a></h3>
-<ol>
-<li><strong>波士顿动力公司（Boston Dynamics）</strong></li>
-</ol>
-<p>相关机器人：Altas、Stretch、Spot</p>
-<ol start="2">
-<li><strong>麻省理工学院 Biomimetic Robotics Lab</strong></li>
-</ol>
-<p>相关机器人：MIT Cheetah、MIT Mini Cheetah</p>
-<ol start="3">
-<li><strong>苏黎世联邦理工学院（ETH Zurich）</strong></li>
-</ol>
-<p>相关机器人：ANYmal</p>
-<ol start="4">
-<li><strong>宇树科技（Unitree Robotics）（国内）</strong></li>
-</ol>
-<p>相关机器人：Laikago、Aliengo、A1、Go1、Go2</p>
-<hr>
-<h3 id="四足机器人的组成">四足机器人的组成<a hidden class="anchor" aria-hidden="true" href="#四足机器人的组成">#</a></h3>
-<p><strong>动力系统 + 控制系统 + 通信系统 + 能源系统</strong></p>
-<p>动力系统：核心是机器人关节电机，需要能够对关节力矩和角度进行精确控制。</p>
-<p>控制系统： 重点是控制算法，比如规划器和运动控制器，能够根据目标路径计算出各个关节需要执行的命令</p>
-<p>通信系统：各个关节电机、传感器、遥控手柄的通信</p>
-<p>能源系统：使用电池或者外部直流电源进行供电</p>
+        <div class="post-content"><h3 id="go2-高层运动">go2 高层运动<a hidden class="anchor" aria-hidden="true" href="#go2-高层运动">#</a></h3>
+<p>订阅：<code>/sportmodestate</code> ，类型为 <code>unitree_go::msg::SportModeState</code></p>
+<p>发布：<code>api/sport/request</code>，类型为 <code>unitree_api::msg::Request</code></p>
+<blockquote>
+<p><strong>unitree_go::msg::SportModeState</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span>TimeSpec <span style="color:#a6e22e">stamp</span>(); 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">uint32_t</span> <span style="color:#a6e22e">errorCode</span>(); <span style="color:#75715e">//错误代码
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>IMU <span style="color:#a6e22e">imuState</span>(); <span style="color:#75715e">//IMU状态
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">uint8_t</span> <span style="color:#a6e22e">mode</span>(); <span style="color:#75715e">//运动模式
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">运动模式
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">0. idle, default stand
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">1. balanceStand
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">2. pose
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">3. locomotion
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">4. reserve
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">5. lieDown
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">6. jointLock
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">7. damping
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">8. recoveryStand
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">9. reserve
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">10. sit
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">11. frontFlip
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">12. frontJump
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">13. frontPounc
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">*/</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> <span style="color:#a6e22e">progress</span>(); <span style="color:#75715e">//是否动作执行状态：0. dance false; 1. dance true
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">uint8_t</span> <span style="color:#a6e22e">gaitType</span>(); <span style="color:#75715e">//步态类型
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">/*
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">步态类型
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">0.idle  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">1.trot  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">2.run  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">3.climb stair  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">4.forwardDownStair   
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">9.adjust
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">*/</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">float</span> <span style="color:#a6e22e">footRaiseHeight</span>(); <span style="color:#75715e">//抬腿高度
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span>, <span style="color:#ae81ff">3</span><span style="color:#f92672">&gt;</span> position(); <span style="color:#75715e">//三维位置
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">float</span> <span style="color:#a6e22e">bodyHeight</span>(); <span style="color:#75715e">//机体高度
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span>, <span style="color:#ae81ff">3</span><span style="color:#f92672">&gt;</span> velocity(); <span style="color:#75715e">//三维速度
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">float</span> <span style="color:#a6e22e">yawSpeed</span>(); <span style="color:#75715e">//偏航速度
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span>, <span style="color:#ae81ff">4</span><span style="color:#f92672">&gt;</span> rangeObstacle(); <span style="color:#75715e">//障碍物距离
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int16_t</span>, <span style="color:#ae81ff">4</span><span style="color:#f92672">&gt;</span> footForce(); <span style="color:#75715e">//四个足端力
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span>, <span style="color:#ae81ff">12</span><span style="color:#f92672">&gt;</span> footPositionBody(); <span style="color:#75715e">//足端相对于机体的位置
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">float</span>, <span style="color:#ae81ff">12</span><span style="color:#f92672">&gt;</span> footSpeedBody(); <span style="color:#75715e">//足端相对与机体的速度
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>std<span style="color:#f92672">::</span>array<span style="color:#f92672">&lt;</span>PathPoint, <span style="color:#ae81ff">10</span><span style="color:#f92672">&gt;</span>  pathPoints(); <span style="color:#75715e">//当前跟踪的路径点
+</span></span></span></code></pre></div><p><strong>unitree_api::msg::Request</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>RequestHeader header
+</span></span><span style="display:flex;"><span>string parameter
+</span></span><span style="display:flex;"><span>uint8<span style="color:#f92672">[]</span> binary
+</span></span></code></pre></div></blockquote>
+<p>对  unitree_api::msg::Request 中的 string parameter 参数进行解析：</p>
+<p>消息案例：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">Parameter:</span> [ {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;t_from_start&#34;</span>: <span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;vx&#34;</span>:<span style="color:#ae81ff">0.38878634572029114</span>, <span style="color:#f92672">&#34;vy&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;vyaw&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;x&#34;</span>:<span style="color:#ae81ff">0.3143965005874634</span>, <span style="color:#f92672">&#34;y&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;yaw&#34;</span>:<span style="color:#ae81ff">0.0</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>,
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&#34;t_from_start&#34;</span>: <span style="color:#ae81ff">0.20000000298023224</span>, <span style="color:#f92672">&#34;vx&#34;</span>:<span style="color:#ae81ff">0.35545676946640015</span>, <span style="color:#f92672">&#34;vy&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;vyaw&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;x&#34;</span>:<span style="color:#ae81ff">0.3516397178173065</span>, <span style="color:#f92672">&#34;y&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;yaw&#34;</span>:<span style="color:#ae81ff">0.0</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>,
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&#34;t_from_start&#34;</span>: <span style="color:#ae81ff">0.4000000059604645</span>, <span style="color:#f92672">&#34;vx&#34;</span>:<span style="color:#ae81ff">0.31857556104660034</span>, <span style="color:#f92672">&#34;vy&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;vyaw&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;x&#34;</span>:<span style="color:#ae81ff">0.3853694498538971</span>, <span style="color:#f92672">&#34;y&#34;</span>:<span style="color:#ae81ff">0.0</span>, <span style="color:#f92672">&#34;yaw&#34;</span>:<span style="color:#ae81ff">0.0</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">.......</span>
+</span></span><span style="display:flex;"><span>            
+</span></span><span style="display:flex;"><span>]
+</span></span></code></pre></div><p>消息含义解释：</p>
+<ul>
+<li><code>&quot;t_from_start&quot;</code>: 从路径开始到达此点所需的时间。</li>
+<li><code>&quot;vx&quot;</code>: 在此点的x方向上的期望速度。</li>
+<li><code>&quot;vy&quot;</code>: 在此点的y方向上的期望速度。</li>
+<li><code>&quot;vyaw&quot;</code>: 在此点的期望偏航速度。</li>
+<li><code>&quot;x&quot;</code>: 此点的x坐标。</li>
+<li><code>&quot;y&quot;</code>: 此点的y坐标。</li>
+<li><code>&quot;yaw&quot;</code>: 此点的偏航角。</li>
+</ul>
 
 
         </div>
@@ -437,15 +490,15 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/robot/draft/install_draft/">
+  <a class="prev" href="http://localhost:1313/posts/python/grammar/">
     <span class="title">« 上一页</span>
     <br>
-    <span>安装汇总</span>
+    <span>python 语法</span>
   </a>
-  <a class="next" href="http://localhost:1313/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/">
+  <a class="next" href="http://localhost:1313/posts/robot/draft/install_draft/">
     <span class="title">下一页 »</span>
     <br>
-    <span>机器人仿真与控制框架</span>
+    <span>安装汇总</span>
   </a>
 </nav>
 

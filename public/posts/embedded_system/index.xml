@@ -8,6 +8,15 @@
     <language>zh</language>
     <lastBuildDate>Sun, 21 Apr 2024 13:07:22 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/embedded_system/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>NodeMCU &#43; esp8266 入门</title>
+      <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Sun, 21 Apr 2024 13:07:22 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NodeMCU 简介</title>
       <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>

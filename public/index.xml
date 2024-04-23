@@ -17,6 +17,24 @@
     </item>
     
     <item>
+      <title>go2 控制器方案</title>
+      <link>http://localhost:1313/posts/robot/draft/plan/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/robot/draft/plan/</guid>
+      <description>go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /</description>
+    </item>
+    
+    <item>
+      <title>安装汇总</title>
+      <link>http://localhost:1313/posts/robot/draft/install_draft/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/robot/draft/install_draft/</guid>
+      <description>安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本</description>
+    </item>
+    
+    <item>
       <title>四足机器人概述</title>
       <link>http://localhost:1313/posts/robot/robot_book/1_overview/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
@@ -41,6 +59,51 @@
       
       <guid>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
       <description>出现 LF will be replaced by CRLF in ****** 解决方法：git config core.autocrlf false</description>
+    </item>
+    
+    <item>
+      <title>Representation Learning</title>
+      <link>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</link>
+      <pubDate>Mon, 22 Apr 2024 03:18:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</guid>
+      <description>什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决</description>
+    </item>
+    
+    <item>
+      <title>磁盘空间不足</title>
+      <link>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</link>
+      <pubDate>Mon, 22 Apr 2024 02:15:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</guid>
+      <description>原因分析 使用 df -h 发现，根目录的挂载 / 点的磁盘空间满了，然后发现是 docker 的原因，占用空间太大 解决方法 删除 docker Overlay2 中的部分内容 具体执行 参考：记录一次docker Overlay2占用磁盘空间99%的清理过程 | Laravel China 社区 (learnku.com)</description>
+    </item>
+    
+    <item>
+      <title>常用命令</title>
+      <link>http://localhost:1313/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 22 Apr 2024 01:06:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeMCU &#43; esp8266 入门</title>
+      <link>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Sun, 21 Apr 2024 13:07:22 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>机器学习中的潜变量</title>
+      <link>http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</link>
+      <pubDate>Sat, 20 Apr 2024 12:55:44 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</guid>
+      <description>什么是潜变量 潜变量，潜在变量，与观测变量相对，意思是不可观测的随机变量。 那么潜变量可以被推断出来吗？可以。通过数学模型依据观测得的数据可推断潜在变量。其中用潜在变量解释观测变量的数学模型称为潜变量模型。 潜变量和现实一些因素是有关系的，测量这些因素表面上可行，实际上很困难，这些通常</description>
     </item>
     
     <item>

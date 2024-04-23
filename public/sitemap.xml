@@ -23,8 +23,14 @@
     <loc>http://localhost:1313/posts/robot/ros/</loc>
     <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/robot/draft/plan/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/robot/</loc>
     <lastmod>2024-04-19T17:06:23+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/robot/draft/install_draft/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/robot/robot_book/1_overview/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
@@ -56,10 +62,28 @@
     <loc>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2024-04-23T01:13:21+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/network/</loc>
-    <lastmod>2024-04-20T02:32:28+08:00</lastmod>
+    <loc>http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/</loc>
+    <lastmod>2024-04-22T03:18:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</loc>
+    <lastmod>2024-04-22T02:15:05+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tools/docker/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2024-04-22T01:06:08+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2024-04-21T13:07:22+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deeplearning/</loc>
+    <lastmod>2024-04-20T12:55:44+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-04-20T12:55:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</loc>
+    <lastmod>2024-04-20T12:55:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/network/</loc>
     <lastmod>2024-04-20T02:32:28+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</loc>
@@ -122,6 +146,15 @@
     <loc>http://localhost:1313/posts/embedded_system/nodemcu/common_commands/</loc>
     <lastmod>2024-04-12T00:57:30+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/robot/draft/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/overview/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/robot/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/ros/</loc>
     <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
@@ -132,12 +165,6 @@
     <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/robot/robot_book/</loc>
-    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/overview/</loc>
-    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/robot/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/simulation/</loc>

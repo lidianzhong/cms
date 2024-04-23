@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>局域网访问WSL2服务 | Dawn Journey</title>
+<title>Representation Learning | Dawn Journey</title>
 <meta name="keywords" content="">
-<meta name="description" content="在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn">
+<meta name="description" content="什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决">
 <meta name="author" content="Leo">
-<link rel="canonical" href="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/">
+<link rel="canonical" href="http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="http://localhost:1313/img/Q.gif">
@@ -19,7 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/img/Q.gif">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/">
 <noscript>
     <style>
         #theme-toggle,
@@ -46,16 +46,16 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-<meta property="og:title" content="局域网访问WSL2服务" />
-<meta property="og:description" content="在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn" />
+<meta property="og:title" content="Representation Learning" />
+<meta property="og:description" content="什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-04-20T02:32:28+08:00" />
-<meta property="article:modified_time" content="2024-04-20T02:32:28+08:00" />
+<meta property="og:url" content="http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-22T03:18:36+08:00" />
+<meta property="article:modified_time" content="2024-04-22T03:18:36+08:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="局域网访问WSL2服务"/>
-<meta name="twitter:description" content="在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn"/>
+<meta name="twitter:title" content="Representation Learning"/>
+<meta name="twitter:description" content="什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决"/>
 
 
 <script type="application/ld+json">
@@ -74,21 +74,21 @@ var _hmt = _hmt || [];
         {
           "@type": "ListItem",
           "position":  2 ,
-          "name": "🔧 工具",
-          "item": "http://localhost:1313/posts/tools/"
+          "name": "📈 机器学习",
+          "item": "http://localhost:1313/posts/machinelearning/"
         },
 
         {
           "@type": "ListItem",
           "position":  3 ,
-          "name": "WSL2",
-          "item": "http://localhost:1313/posts/tools/wsl2/"
+          "name": "深度学习",
+          "item": "http://localhost:1313/posts/machinelearning/deeplearning/"
         }, 
     {
       "@type": "ListItem",
       "position":  4 ,
-      "name": "局域网访问WSL2服务",
-      "item": "http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/"
+      "name": "Representation Learning",
+      "item": "http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/"
     }
   ]
 }
@@ -97,24 +97,24 @@ var _hmt = _hmt || [];
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "局域网访问WSL2服务",
-  "name": "局域网访问WSL2服务",
-  "description": "在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn",
+  "headline": "Representation Learning",
+  "name": "Representation Learning",
+  "description": "什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决",
   "keywords": [
     ""
   ],
-  "articleBody": " 在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？\n无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。\n这种情况只针对于使用的是 localhost\n使用 WSL 访问网络应用程序 | Microsoft Learn\n",
-  "wordCount" : "72",
+  "articleBody": "什么是 Representation Learning（表征学习） 机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决问题。表征学习的目的是对复杂的原始数据化繁为简，把原始数据的无效的或者冗余的信息剔除，把有效信息进行提炼，形成特征（feature）。\n特征提取可以人为地手工处理，也可以借助特定的算法自动提取。Roughly Speaking， 前者为特征工程，后者为表征学习（Representation Learning）。如果数据量较小，我们可以根据自身的经验和先验知识，人为地设计出合适的特征，用作下游的任务，比如表征学习同样在人工智能领域有着相当重要的地位。 我们已经知道人类的信息处理过程与长期记忆和短期记忆密切相关。短期记忆是短期存储的记忆，长期记忆就是我们大脑中长期存储的知识，就像在图书馆中存储的海量文献。根据这个简单的信息处理模型，再加上计算机更快的计算速度和海量的存储空间，人工智能应该比人类更为强大才是。但至少到目前，我们看到的情况并非如此。这其中一个重要的原因就是我们还未能破解人类大脑究竟是如何对数据进行编码，和对知识进行存储的。处理外界信息的第一步就是要将其编码，投影到某一空间。比如说，当人类仅需要几个例子就可以区分猫和狗的不同，而机器却需要大量数据训练时，我们不由得想要探寻：人类是如何对图像进行编码的？他提取了哪些特征可以通过少量样本进行学习？为什么人类学习的知识更灵活，可以在更多方面应用，而机器学习的模型通用性往往很差？这正是表征学习探索的目标：寻找对数据更好的表示方式。（机器学习的目的就是学习物质的有限个特征，而这些特征都要从数据里来。数据如何更够更好地反应我们需要的特征，让数据能够更多更准确地得到物质的特征，这个工作可以由人工处理完成，也可以通过自动化的表征学习来完成）。\n一般来说，数据该如何进行表示能收到更好的效果，是各个数据更加独立？还是其它？\n在单个任务中，选用什么样的数据表示更好，比如在图像中，设计的HSV就比RGB一般效果要好\n",
+  "wordCount" : "919",
   "inLanguage": "zh",
-  "datePublished": "2024-04-20T02:32:28+08:00",
-  "dateModified": "2024-04-20T02:32:28+08:00",
+  "datePublished": "2024-04-22T03:18:36+08:00",
+  "dateModified": "2024-04-22T03:18:36+08:00",
   "author":{
     "@type": "Person",
     "name": "Leo"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/"
+    "@id": "http://localhost:1313/posts/machinelearning/deeplearning/representationlearning/"
   },
   "publisher": {
     "@type": "Organization",
@@ -216,9 +216,9 @@ var _hmt = _hmt || [];
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tools/">🔧 工具</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tools/wsl2/">WSL2</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/machinelearning/">📈 机器学习</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/machinelearning/deeplearning/">深度学习</a></div>
             <h1 class="post-title">
-                局域网访问WSL2服务
+                Representation Learning<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>
             </h1>
             <div class="post-meta">
 
@@ -239,7 +239,7 @@ var _hmt = _hmt || [];
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>2024-04-20
+        <span>2024-04-22
             &nbsp;&nbsp;
         </span>
     </span>
@@ -252,13 +252,13 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>72字
+        <span>919字
             &nbsp;&nbsp;
         </span>
     </span>
     <span id="post_meta_style_4">
         <span class="fa fa-clock-o"></span>
-        <span>1分钟
+        <span>2分钟
             &nbsp;&nbsp;
         </span>
     </span>
@@ -272,7 +272,6 @@ var _hmt = _hmt || [];
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="http://localhost:1313/tags/network/" style="color: var(--secondary)!important;">Network</a>
             </span>
         </span>
     </span>
@@ -325,13 +324,87 @@ var _hmt = _hmt || [];
                 </span>
 
 </div>
-        </header> 
-        <div class="post-content"><blockquote>
-<p>在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？</p>
-</blockquote>
-<p>无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。</p>
-<p>这种情况只针对于使用的是 localhost</p>
-<p><a href="https://learn.microsoft.com/zh-cn/windows/wsl/networking">使用 WSL 访问网络应用程序 | Microsoft Learn</a></p>
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e4%bb%80%e4%b9%88%e6%98%af-representation-learning%e8%a1%a8%e5%be%81%e5%ad%a6%e4%b9%a0" aria-label="什么是 Representation Learning（表征学习）">什么是 Representation Learning（表征学习）</a>
+                </li>
+            </ul>
+        </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
+        <div class="post-content"><h2 id="什么是-representation-learning表征学习">什么是 Representation Learning（表征学习）<a hidden class="anchor" aria-hidden="true" href="#什么是-representation-learning表征学习">#</a></h2>
+<p>机器学习算法的work与否不仅仅取决于算法的正确选用，也取决于数据的质量和有效的表示（representation）。针对不同类型的数据（text，image，video），不同的表示可能会导致有效信息的缺失或是曝露，这决定了算法能否有效地解决问题。表征学习的目的是对复杂的原始数据化繁为简，把原始数据的无效的或者冗余的信息剔除，把有效信息进行提炼，形成特征（feature）。</p>
+<p>特征提取可以人为地手工处理，也可以借助特定的算法自动提取。Roughly Speaking， 前者为特征工程，后者为表征学习（Representation Learning）。如果数据量较小，我们可以根据自身的经验和先验知识，人为地设计出合适的特征，用作下游的任务，比如表征学习同样在人工智能领域有着相当重要的地位。 我们已经知道人类的信息处理过程与长期记忆和短期记忆密切相关。短期记忆是短期存储的记忆，长期记忆就是我们大脑中长期存储的知识，就像在图书馆中存储的海量文献。根据这个简单的信息处理模型，再加上计算机更快的计算速度和海量的存储空间，人工智能应该比人类更为强大才是。但至少到目前，我们看到的情况并非如此。这其中一个重要的原因就是我们还未能破解人类大脑究竟是如何对数据进行编码，和对知识进行存储的。处理外界信息的第一步就是要将其编码，投影到某一空间。比如说，当人类仅需要几个例子就可以区分猫和狗的不同，而机器却需要大量数据训练时，我们不由得想要探寻：人类是如何对图像进行编码的？他提取了哪些特征可以通过少量样本进行学习？为什么人类学习的知识更灵活，可以在更多方面应用，而机器学习的模型通用性往往很差？这正是表征学习探索的目标：寻找对数据更好的表示方式。（机器学习的目的就是学习物质的有限个特征，而这些特征都要从数据里来。数据如何更够更好地反应我们需要的特征，让数据能够更多更准确地得到物质的特征，这个工作可以由人工处理完成，也可以通过自动化的表征学习来完成）。</p>
+<p>一般来说，数据该如何进行表示能收到更好的效果，是各个数据更加独立？还是其它？</p>
+<p>在单个任务中，选用什么样的数据表示更好，比如在图像中，设计的HSV就比RGB一般效果要好</p>
 
 
         </div>
@@ -339,15 +412,15 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/">
+  <a class="prev" href="http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/">
     <span class="title">« 上一页</span>
     <br>
-    <span>机器学习中的潜变量</span>
+    <span>字符编码问题</span>
   </a>
-  <a class="next" href="http://localhost:1313/posts/ubuntu/py_environment/graphics_card/">
+  <a class="next" href="http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/">
     <span class="title">下一页 »</span>
     <br>
-    <span>GPU 相关</span>
+    <span>磁盘空间不足</span>
   </a>
 </nav>
 

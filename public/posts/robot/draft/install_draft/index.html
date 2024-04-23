@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>局域网访问WSL2服务 | Dawn Journey</title>
+<title>安装汇总 | Dawn Journey</title>
 <meta name="keywords" content="">
-<meta name="description" content="在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn">
+<meta name="description" content="安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本">
 <meta name="author" content="Leo">
-<link rel="canonical" href="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/">
+<link rel="canonical" href="http://localhost:1313/posts/robot/draft/install_draft/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="http://localhost:1313/img/Q.gif">
@@ -19,7 +19,7 @@
 <link rel="mask-icon" href="http://localhost:1313/img/Q.gif">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/robot/draft/install_draft/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,8 +29,6 @@
 
     </style>
 </noscript>
-<script defer src="https://unpkg.com/mermaid@8.8.1/dist/mermaid.min.js"></script>
-
 <link rel="stylesheet" href="/fix/font-awesome.min.css">
 <script src="/fix/busuanzi.pure.mini.js"></script>
 <script src="/fix/jquery.min.js"></script>
@@ -46,16 +44,16 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-<meta property="og:title" content="局域网访问WSL2服务" />
-<meta property="og:description" content="在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn" />
+<meta property="og:title" content="安装汇总" />
+<meta property="og:description" content="安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-04-20T02:32:28+08:00" />
-<meta property="article:modified_time" content="2024-04-20T02:32:28+08:00" />
+<meta property="og:url" content="http://localhost:1313/posts/robot/draft/install_draft/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-10T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="局域网访问WSL2服务"/>
-<meta name="twitter:description" content="在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn"/>
+<meta name="twitter:title" content="安装汇总"/>
+<meta name="twitter:description" content="安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本"/>
 
 
 <script type="application/ld+json">
@@ -74,21 +72,21 @@ var _hmt = _hmt || [];
         {
           "@type": "ListItem",
           "position":  2 ,
-          "name": "🔧 工具",
-          "item": "http://localhost:1313/posts/tools/"
+          "name": "🤖 四足机器人",
+          "item": "http://localhost:1313/posts/robot/"
         },
 
         {
           "@type": "ListItem",
           "position":  3 ,
-          "name": "WSL2",
-          "item": "http://localhost:1313/posts/tools/wsl2/"
+          "name": "📜 草稿",
+          "item": "http://localhost:1313/posts/robot/draft/"
         }, 
     {
       "@type": "ListItem",
       "position":  4 ,
-      "name": "局域网访问WSL2服务",
-      "item": "http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/"
+      "name": "安装汇总",
+      "item": "http://localhost:1313/posts/robot/draft/install_draft/"
     }
   ]
 }
@@ -97,24 +95,24 @@ var _hmt = _hmt || [];
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "局域网访问WSL2服务",
-  "name": "局域网访问WSL2服务",
-  "description": "在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn",
+  "headline": "安装汇总",
+  "name": "安装汇总",
+  "description": "安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo \u0026#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main\u0026#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list \u0026gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本",
   "keywords": [
     ""
   ],
-  "articleBody": " 在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？\n无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。\n这种情况只针对于使用的是 localhost\n使用 WSL 访问网络应用程序 | Microsoft Learn\n",
-  "wordCount" : "72",
+  "articleBody": "安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本\nsudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能\nhttps://rtw.stoglrobotics.de/master/index.html\nros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html\nignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo\nsudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo \"deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main\" | sudo tee /etc/apt/sources.list.d/gazebo-stable.list \u003e /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu\n安装 python2 版本和 python3 版本的numpy sudo apt-get install python-numpy # python2 numpy sudo apt-get install python3-numpy # python3 numpy ",
+  "wordCount" : "164",
   "inLanguage": "zh",
-  "datePublished": "2024-04-20T02:32:28+08:00",
-  "dateModified": "2024-04-20T02:32:28+08:00",
+  "datePublished": "2024-04-10T00:00:00Z",
+  "dateModified": "2024-04-10T00:00:00Z",
   "author":{
     "@type": "Person",
     "name": "Leo"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/"
+    "@id": "http://localhost:1313/posts/robot/draft/install_draft/"
   },
   "publisher": {
     "@type": "Organization",
@@ -216,9 +214,9 @@ var _hmt = _hmt || [];
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tools/">🔧 工具</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/tools/wsl2/">WSL2</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:1313/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">📚文章</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/robot/">🤖 四足机器人</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/robot/draft/">📜 草稿</a></div>
             <h1 class="post-title">
-                局域网访问WSL2服务
+                安装汇总<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>
             </h1>
             <div class="post-meta">
 
@@ -239,7 +237,7 @@ var _hmt = _hmt || [];
 <span class="parent-post-meta">
     <span id="post_meta_style_1">
         <span class="fa fa-calendar-check-o"></span>
-        <span>2024-04-20
+        <span>2024-04-10
             &nbsp;&nbsp;
         </span>
     </span>
@@ -252,7 +250,7 @@ var _hmt = _hmt || [];
     
     <span id="post_meta_style_3">
         <span class="fa fa-file-word-o"></span>
-        <span>72字
+        <span>164字
             &nbsp;&nbsp;
         </span>
     </span>
@@ -272,7 +270,8 @@ var _hmt = _hmt || [];
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
             <span class="post-tags-meta">
-                <a href="http://localhost:1313/tags/network/" style="color: var(--secondary)!important;">Network</a>
+                <a href="http://localhost:1313/tags/robot/" style="color: var(--secondary)!important;">Robot</a>
+                &nbsp;<a href="http://localhost:1313/tags/overview/" style="color: var(--secondary)!important;">Overview</a>
             </span>
         </span>
     </span>
@@ -325,29 +324,142 @@ var _hmt = _hmt || [];
                 </span>
 
 </div>
-        </header> 
-        <div class="post-content"><blockquote>
-<p>在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？</p>
-</blockquote>
-<p>无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。</p>
-<p>这种情况只针对于使用的是 localhost</p>
-<p><a href="https://learn.microsoft.com/zh-cn/windows/wsl/networking">使用 WSL 访问网络应用程序 | Microsoft Learn</a></p>
+        </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目录</span>
+        </summary>
 
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%ae%89%e8%a3%85%e6%b1%87%e6%80%bb" aria-label="安装汇总">安装汇总</a><ul>
+                        
+                <li>
+                    <a href="#%e5%ae%89%e8%a3%85" aria-label="安装">安装</a><ul>
+                        
+                <li>
+                    <a href="#ros2-control-%e5%ae%89%e8%a3%85" aria-label="ros2 control 安装"><code>ros2 control</code> 安装</a></li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8-rosteamws-ros%e5%b7%a5%e4%bd%9c%e5%8c%ba%e6%a8%a1%e6%9d%bf" aria-label="使用 RosTeamWS ROS工作区模板">使用 RosTeamWS ROS工作区模板</a></li>
+                <li>
+                    <a href="#ros2-%e5%ae%89%e8%a3%85" aria-label="ros2 安装">ros2 安装</a></li>
+                <li>
+                    <a href="#ignition-gazebo-%e5%ae%89%e8%a3%85" aria-label="ignition gazebo 安装">ignition gazebo 安装</a></li>
+                <li>
+                    <a href="#%e5%ae%89%e8%a3%85-python2-%e7%89%88%e6%9c%ac%e5%92%8c-python3-%e7%89%88%e6%9c%ac%e7%9a%84numpy" aria-label="安装 python2 版本和 python3 版本的numpy">安装 python2 版本和 python3 版本的numpy</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+        
+        activeElement = elements[0];
+        const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+        document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+    }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        if (elements) {
+            activeElement = Array.from(elements).find((element) => {
+                if ((getOffsetTop(element) - window.pageYOffset) > 0 &&
+                    (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                    return element;
+                }
+            }) || activeElement
+
+            elements.forEach(element => {
+                const id = encodeURI(element.getAttribute('id')).toLowerCase();
+                if (element === activeElement){
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+                } else {
+                    document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+                }
+            })
+        }
+    }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;
+    }
+</script>
+        <div class="post-content"><h1 id="安装汇总">安装汇总<a hidden class="anchor" aria-hidden="true" href="#安装汇总">#</a></h1>
+<h2 id="安装">安装<a hidden class="anchor" aria-hidden="true" href="#安装">#</a></h2>
+<h3 id="ros2-control-安装"><code>ros2 control</code> 安装<a hidden class="anchor" aria-hidden="true" href="#ros2-control-安装">#</a></h3>
+<p>安装 ros2 control，<code>humble</code> 替换为你使用的版本</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install ros-humble-ros2-control
+</span></span><span style="display:flex;"><span>sudo apt install ros-humble-ros2-controllers
+</span></span></code></pre></div><hr>
+<h3 id="使用-rosteamws-ros工作区模板">使用 RosTeamWS ROS工作区模板<a hidden class="anchor" aria-hidden="true" href="#使用-rosteamws-ros工作区模板">#</a></h3>
+<p>能够快速地创建特定 ros 功能包，提供模板功能</p>
+<p><a href="https://rtw.stoglrobotics.de/master/index.html">https://rtw.stoglrobotics.de/master/index.html</a></p>
+<hr>
+<h3 id="ros2-安装">ros2 安装<a hidden class="anchor" aria-hidden="true" href="#ros2-安装">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install ros-humble-desktop
+</span></span></code></pre></div><p><a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html">https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html</a></p>
+<hr>
+<h3 id="ignition-gazebo-安装">ignition gazebo 安装<a hidden class="anchor" aria-hidden="true" href="#ignition-gazebo-安装">#</a></h3>
+<p>ignition 为新一代的模拟题，替换了之前使用的 gazebo</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;deb [arch=</span><span style="color:#66d9ef">$(</span>dpkg --print-architecture<span style="color:#66d9ef">)</span><span style="color:#e6db74"> signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74"> main&#34;</span> | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &gt; /dev/null
+</span></span><span style="display:flex;"><span>sudo apt-get update
+</span></span><span style="display:flex;"><span>sudo apt-get install gz-harmonic
+</span></span></code></pre></div><p><a href="https://staging.gazebosim.org/docs/harmonic/install_ubuntu">https://staging.gazebosim.org/docs/harmonic/install_ubuntu</a></p>
+<hr>
+<h3 id="安装-python2-版本和-python3-版本的numpy">安装 python2 版本和 python3 版本的numpy<a hidden class="anchor" aria-hidden="true" href="#安装-python2-版本和-python3-版本的numpy">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt-get install python-numpy  <span style="color:#75715e"># python2 numpy</span>
+</span></span><span style="display:flex;"><span>sudo apt-get install python3-numpy  <span style="color:#75715e"># python3 numpy</span>
+</span></span></code></pre></div>
 
         </div>
 
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/">
+  <a class="prev" href="http://localhost:1313/posts/robot/draft/plan/">
     <span class="title">« 上一页</span>
     <br>
-    <span>机器学习中的潜变量</span>
+    <span>go2 控制器方案</span>
   </a>
-  <a class="next" href="http://localhost:1313/posts/ubuntu/py_environment/graphics_card/">
+  <a class="next" href="http://localhost:1313/posts/robot/robot_book/1_overview/">
     <span class="title">下一页 »</span>
     <br>
-    <span>GPU 相关</span>
+    <span>四足机器人概述</span>
   </a>
 </nav>
 
