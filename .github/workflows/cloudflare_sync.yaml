@@ -64,9 +64,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: public-artifact
           path: ./public
-      - name: Check public directory
-        run: ls ./public
 
   # Deployment job
   deploy:
