@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🟠 Ubuntu on Dawn Journey</title>
+    <link>https://drawjourney.pages.dev/posts/ubuntu/</link>
+    <description>Recent content in 🟠 Ubuntu on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 28 Apr 2024 02:48:48 +0800</lastBuildDate><atom:link href="https://drawjourney.pages.dev/posts/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 常用命令</title>
+      <link>https://drawjourney.pages.dev/posts/ubuntu/common_command/common_command/</link>
+      <pubDate>Tue, 16 Apr 2024 01:20:57 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/ubuntu/common_command/common_command/</guid>
+      <description>国内镜像源 apt 清华源 配置地址：/etc/apt/sources.list ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror 快速配置镜像源 Ubuntu 20.04 LTS echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list Ubuntu 22.04 LTS echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multivers deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list 清除所有</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Dawn Journey</title>
+    <link>https://drawjourney.pages.dev/</link>
+    <description>Recent content on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://drawjourney.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 常用命令</title>
+      <link>https://drawjourney.pages.dev/posts/ubuntu/common_command/common_command/</link>
+      <pubDate>Tue, 16 Apr 2024 01:20:57 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/ubuntu/common_command/common_command/</guid>
+      <description>国内镜像源 apt 清华源 配置地址：/etc/apt/sources.list ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror 快速配置镜像源 Ubuntu 20.04 LTS echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list Ubuntu 22.04 LTS echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multivers deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list 清除所有</description>
+    </item>
+    
+    <item>
+      <title>python 语法</title>
+      <link>https://drawjourney.pages.dev/posts/python/grammar/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/python/grammar/</guid>
+      <description>__init__.py 的作用 用于告诉 Python 解释器，该目录是一个包，而不仅仅是一个普通的目录。这样你就可以使用 import 来导入目录中的模块 同时在 init.py 文件中你也可以做一些必要的设置、定义一些变量等等。</description>
+    </item>
+    
+    <item>
+      <title>四足机器人概述</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/1_overview/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/1_overview/</guid>
+      <description>介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric</description>
+    </item>
+    
+    <item>
+      <title>机器人仿真与控制框架</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
+      <description>ROS与Gazebo ROS 中将每一个进程视作一个节点（Node），节点之间的通信方式依靠：话题（Topic）、服务（Service）、参数（Parameter）。 控制器（Controller）与仿真（Gazebo）就是两个节点，利用 topic通信。 过程是：控制器从Gazebo读取机器</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 22.04 安装 ros1 noetic</title>
+      <link>https://drawjourney.pages.dev/posts/robot/ros/ros_noetic_install_from_source/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/ros/ros_noetic_install_from_source/</guid>
+      <description>安装 参考 ROS 官网文档：https://wiki.ros.org/noetic/Installation/Source 安装完成之后，使用这一行命令就能引用 ros1 了 source ~/ros_catkin_ws/install_isolated/setup.bash 或者用 colcon 构建的 source ~/ros_catkin_ws/install/setup.bash 当出现错误时，尝试修正中，可以使用 catkin_build_isolated &amp;lt;pkg name&amp;gt; 避免繁琐的所有包构建 常见问题 rosdep update 报错，网络问题 原因：网络被墙，考</description>
+    </item>
+    
+    <item>
+      <title>Apt 相关问题</title>
+      <link>https://drawjourney.pages.dev/posts/ubuntu/problem/apt_problem/</link>
+      <pubDate>Sun, 28 Apr 2024 02:48:48 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/ubuntu/problem/apt_problem/</guid>
+      <description>常见问题 W: GPG error: https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease: The following signatures couldn&amp;rsquo;t be verified because the public key is not available: NO_PUBKEY 871920D1991BC93C 解决方法：添加公钥 解决清华源问题(GPG error:because the public key is not available)\CSDN 博客 E: gnupg, gnupg2 and gnupg1 do not seem to be installed, but one of them is required for this operation 解决方法：安装 gnupg 库 sudo apt install gnupg E: Error, pkgProblemResolver::Resolve generated breaks, this may be caused by held packages. 解决方法：修复破损包 apt --fix-broken install apt-get install aptitude sudo aptitude install &amp;lt;packagename&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>字符编码问题</title>
+      <link>https://drawjourney.pages.dev/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Tue, 23 Apr 2024 01:13:21 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <description>出现 LF will be replaced by CRLF in ****** 解决方法：git config core.autocrlf false</description>
+    </item>
+    
+    <item>
+      <title>磁盘空间不足</title>
+      <link>https://drawjourney.pages.dev/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</link>
+      <pubDate>Mon, 22 Apr 2024 02:15:05 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</guid>
+      <description>原因分析 使用 df -h 发现，根目录的挂载 / 点的磁盘空间满了，然后发现是 docker 的原因，占用空间太大 解决方法 方法一：删除 docker Overlay2 中的部分内容 方法二（推荐）：修改 docker 的默认存储路径 /var/lib/docker 具体执行 参考：记录一次 docker Overlay2 占用磁盘空间 99%的清理过程 | Laravel China 社区 (learnku.com)</description>
+    </item>
+    
+    <item>
+      <title>局域网访问WSL2服务</title>
+      <link>https://drawjourney.pages.dev/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</link>
+      <pubDate>Sat, 20 Apr 2024 02:32:28 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</guid>
+      <description>在 WSL2 中运行的有 http://localhost:1188/ 的服务，如何通过 Windows 宿主机进行访问？ 无需任何操作，直接在 Windows 中使用 http://localhost:1188/ 即可访问。 这种情况只针对于使用的是 localhost 使用 WSL 访问网络应用程序 | Microsoft Learn</description>
+    </item>
+    
+    <item>
+      <title>GPU 相关</title>
+      <link>https://drawjourney.pages.dev/posts/tools/gpu/graphics_card/</link>
+      <pubDate>Fri, 19 Apr 2024 16:56:28 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/gpu/graphics_card/</guid>
+      <description>cuda 版本的问题 使用 nvidia-smi 命令显示的 cuda 版本表示支持最高的版本，并不是当前 cuda 的版本。 查看当前 cuda 版本的命令是使用 nvcc -V 命令，显示的 cuda 版本。 cuda 版本支持切换，主要是根据 PATH 中的指向来确定的 切换 cuda 版本的命令如下 # &amp;lt;version&amp;gt; 须切换的CUDA版本号 export PATH=/usr/local/cuda-&amp;lt;version&amp;gt;/bin${PATH:+:${PATH}} export LD_LIBRARY_PATH=/usr/local/cuda-&amp;lt;version&amp;gt;/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} [解決方案] conda 虚拟环境中 cuda 不同版本進行切換（含 Linux 和 Wind</description>
+    </item>
+    
+    <item>
+      <title>Conda 常用命令汇总</title>
+      <link>https://drawjourney.pages.dev/posts/tools/gpu/conda_command/</link>
+      <pubDate>Tue, 16 Apr 2024 13:52:25 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/gpu/conda_command/</guid>
+      <description>卸载 Conda 环境 conda env remove --name myenv</description>
+    </item>
+    
+    <item>
+      <title>Wsl2_problem</title>
+      <link>https://drawjourney.pages.dev/posts/tools/wsl2/wsl2_problem/</link>
+      <pubDate>Tue, 16 Apr 2024 13:13:20 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/wsl2/wsl2_problem/</guid>
+      <description>安装问题 无法解析的服务器名称，Error code: Wsl/WININET_E_NAME_NOT_RESOLVED PS C:\Users\DianzhongLi&amp;gt; wsl --list --online 无法从“https://raw.githubusercontent.com/microsoft/WSL/master/distributions/DistributionInfo.json”中提取列表分发。无法解析服务器的名称</description>
+    </item>
+    
+    <item>
+      <title>Wsl2_install</title>
+      <link>https://drawjourney.pages.dev/posts/tools/wsl2/wsl2_install/</link>
+      <pubDate>Tue, 16 Apr 2024 01:25:45 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/wsl2/wsl2_install/</guid>
+      <description>安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2 安装 ssh Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) wsl2 安装 vscode 开始通过 WSL</description>
+    </item>
+    
+    <item>
+      <title>内存访问</title>
+      <link>https://drawjourney.pages.dev/posts/assembly/memory_location/</link>
+      <pubDate>Mon, 15 Apr 2024 19:14:13 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/assembly/memory_location/</guid>
+      <description>使用间接寻址访问内存中的指令 [0] 表示访问内存地址为 0 的位置，[bx] 表示访问内存地址为 bx 寄存器值的位置。 ; 从内存地址为 0x1000 的位置读取一个字节 mov bx, 0x1000 ; 将 0x1000 存入 bx 寄存器 mov al, [bx] ; 从内存地址为 bx 的位置读取一个字节，存入 al 寄存器 使用 and 和 or 实现内存定位 and 指令：按位进行与运算，可以将相应位设为 0，</description>
+    </item>
+    
+    <item>
+      <title>NodeMCU 简介</title>
+      <link>https://drawjourney.pages.dev/posts/embedded_system/nodemcu/nodemcu/</link>
+      <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/embedded_system/nodemcu/nodemcu/</guid>
+      <description>ESP8266 ESP8266 利用 WiFi 联网时有三种工作模式。 Station 模式：工作在 Station 模式下的 ESP8266 就像是一个接收机一样，它可以接收来自无线路由器发出的信号。ESP8266 模块通过路由器连接互联网，手机或电脑通过互联网实现对设备的远程控制。 SoftAP 模式：无线接入点的简称，ESP8266 模块作为热点，实现手机或电脑直接与模块通信</description>
+    </item>
+    
+    <item>
+      <title>NodeMCU 编程遇到的问题</title>
+      <link>https://drawjourney.pages.dev/posts/embedded_system/nodemcu/problem_nodemcu/</link>
+      <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
+      <description>1. command ‘platformio-ide.build‘ not found 解决：关闭 Vscode 再打开就好了~ 2. PlatformIO 串口显示乱码 解决：串口监视器和单片机波特率不一致 [env:nodemcuv2] platform = espressif8266 board = nodemcuv2 framework = esp8266-rtos-sdk monitor_speed = 74880 ; 监视器波特率设置 monitor_port = COM3 ; 监视器端口设置，设置为连接的串口端口 3. PlatformIO 串口显示开头乱码 原因：很有可能是因为你之前烧写的程序没关，</description>
+    </item>
+    
+    <item>
+      <title>嵌入式常用命令汇总</title>
+      <link>https://drawjourney.pages.dev/posts/embedded_system/nodemcu/common_commands/</link>
+      <pubDate>Fri, 12 Apr 2024 00:57:30 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/embedded_system/nodemcu/common_commands/</guid>
+      <description>嵌入式命令 查看已经安装的驱动：sudo dmesg 查看安装的串口设备：ls -l /dev/ttyS* 查看安装的 USB 转串口设备：ls -l /dev/ttyS* 查看系统日志关于串口设备的信息：dmesg | grep ttyS 查看 ttyS0 驱动的安装时间：ls -l /dev/ttyS0 Windows 下查看端口命令 通用方法，Win + X，选择设备管理器，查看 COM 端口，也可点击属性信息查看 PlatformIO Vscode 开发，点击小</description>
+    </item>
+    
+    <item>
+      <title>ros 安装相关</title>
+      <link>https://drawjourney.pages.dev/posts/robot/ros/ros_install/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/ros/ros_install/</guid>
+      <description>安装 ROS2 humble 版本 Ubuntu (Debian packages) — ROS 2 Documentation: Humble documentation ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers</description>
+    </item>
+    
+    <item>
+      <title>ros 相关的安装</title>
+      <link>https://drawjourney.pages.dev/posts/robot/ros/ros_about/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/ros/ros_about/</guid>
+      <description>安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS 工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本和 python3 版本的 numpy</description>
+    </item>
+    
+    <item>
+      <title>🤝友链</title>
+      <link>https://drawjourney.pages.dev/links/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/links/</guid>
+      <description>Dawn Journey 在黎明的微光中，我们踏上了一场绚丽的旅程 👉友链格式 名称： Dawn Journey 网址： https://lidianzhong.gitee.io/ 图标： https://lidianzhong.gitee.io/img/Q.gif 描述： 在黎明的微光中，我们踏上了一场绚丽的旅程</description>
+    </item>
+    
+    <item>
+      <title>Git 命令汇总</title>
+      <link>https://drawjourney.pages.dev/posts/tools/git/git-command-overall/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/git/git-command-overall/</guid>
+      <description>Git 命令汇总 1. 分支相关 1.1 查看当前分支 git branch 1.2 创建一个新分支并切换到这个分支 git checkout -b dev # 创建新分支 dev 并切换到它 1.3 切换到某个分支 git checkout test # 切换到 test 分支 1.4 删除分支 git branch -d test # 删除 test 分支，如果分支没有被合并，使用 -D 参数强制删除 1.5 重命名分支 git branch -m &amp;lt;old_branch_name&amp;gt; &amp;lt;new_branch_name&amp;gt; 2. 撤销相关 2.1 撤销最近的一次提交 git reset --hard HEAD~1 # 撤销最近的</description>
+    </item>
+    
+    <item>
+      <title>解决Git同步访问慢的问题</title>
+      <link>https://drawjourney.pages.dev/posts/tools/git/solve-git-slow-problem/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/tools/git/solve-git-slow-problem/</guid>
+      <description>在我们想要将本地的代码提交到 Github 远程仓库时，会因为网络问题，拉取失败。 解决 Git 提交拉取时的网络问题 方法一 (推荐) 获取动态 host ip 进行修改 https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts 也可以是本地 hosts 服务 下载地址：https://github.com/ineo6/hosts/releases/tag/v1.0.1 更多信息：https:</description>
+    </item>
+    
+    <item>
+      <title>四足机器人关节电机</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/2_guan_jie_dian_ji/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/2_guan_jie_dian_ji/</guid>
+      <description>后续开发的算法，最终结果都是生成发送给这12个关节电机的命令 四足机器人的动力系统 1. 永磁同步电机（PMSM） 通过控制定子上三个线圈的电流，可以控制电机的力矩和角度。这种控制方法叫做矢量控制（FOC）。 2. 关节电机的混合控制 关节电机的内部，已经封装了电机底层的控制算法。作为用户，只要给</description>
+    </item>
+    
+    <item>
+      <title>🙋🏻‍♂️关于</title>
+      <link>https://drawjourney.pages.dev/about/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/about/</guid>
+      <description>关于我 Dawn Journey 在黎明的微光中，我们踏上了一场绚丽的旅程 一首诗 轮台东门送君去，去时雪满天山路。 峰回路转不见君，雪上空留马行处。 本站建于 2024 年 4 月 1 日</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://drawjourney.pages.dev/draft/create_docker_image_for_unitree_ws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/draft/create_docker_image_for_unitree_ws/</guid>
+      <description>1. create container docker run -d --restart=on-failure \ --name unitree_ws \ --cap-add=SYS_PTRACE \ --gpus=&amp;#39;&amp;#34;device=1&amp;#34;&amp;#39; \ -e USER=unitree \ -e PASSWORD=123 \ --shm-size=1024m \ -p 10025:22 \ -p 14025:4000 \ registry.cn-hongkong.aliyuncs.com/gezp/ubuntu-desktop:20.04-cu11.0.3 the default username and password are both ubuntu. 2. access conatiner by ssh ( recommended to use vscode + remote ssh plugin) ssh ubuntu@host-ip -p 10025 3. 安装 ros1 noetic 和 ros2 foxy wget http://fishros.com/install -O fishros &amp;amp;&amp;amp; . fishros 4. 安装 unitree_guide 安装 lcm git clone https://github.com/lcm-proj/lcm.git git checkout v1.4.0 apt install -y openjdk-8-jdk mkdir build cd build cmake .. make export LCM_INSTALL_DIR=/usr/local/lib sudo make install sudo ldconfig Ubuntu20.04安装、编译LCM1.4.0教程_ubuntu20.04</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://drawjourney.pages.dev/draft/drl_grasping_for_docker_image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/draft/drl_grasping_for_docker_image/</guid>
+      <description>开始 删除原有软件源并更新软件源 在 .bashrc 文件中编辑 export PYTHONPATH=~/ws/src/O-CNN/octree/build/python:${PYTHONPATH} 进入 ws 目录 source ~/.bashrc &amp;amp;&amp;amp; cd ws &amp;amp;&amp;amp; . install/setup.bash 执行命令 ros2 run drl_grasping ex_random_agent.bash 你可能会收到如下错误： export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=/root/ws/install/lib</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

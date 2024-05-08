@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>📘 《四足机器人控制算法》 on Dawn Journey</title>
+    <link>https://drawjourney.pages.dev/posts/robot/robot_book/</link>
+    <description>Recent content in 📘 《四足机器人控制算法》 on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://drawjourney.pages.dev/posts/robot/robot_book/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>四足机器人概述</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/1_overview/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/1_overview/</guid>
+      <description>介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric</description>
+    </item>
+    
+    <item>
+      <title>机器人仿真与控制框架</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
+      <description>ROS与Gazebo ROS 中将每一个进程视作一个节点（Node），节点之间的通信方式依靠：话题（Topic）、服务（Service）、参数（Parameter）。 控制器（Controller）与仿真（Gazebo）就是两个节点，利用 topic通信。 过程是：控制器从Gazebo读取机器</description>
+    </item>
+    
+    <item>
+      <title>四足机器人关节电机</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/2_guan_jie_dian_ji/</link>
+      <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/2_guan_jie_dian_ji/</guid>
+      <description>后续开发的算法，最终结果都是生成发送给这12个关节电机的命令 四足机器人的动力系统 1. 永磁同步电机（PMSM） 通过控制定子上三个线圈的电流，可以控制电机的力矩和角度。这种控制方法叫做矢量控制（FOC）。 2. 关节电机的混合控制 关节电机的内部，已经封装了电机底层的控制算法。作为用户，只要给</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Simulation on Dawn Journey</title>
+    <link>https://drawjourney.pages.dev/tags/simulation/</link>
+    <description>Recent content in Simulation on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://drawjourney.pages.dev/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器人仿真与控制框架</title>
+      <link>https://drawjourney.pages.dev/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://drawjourney.pages.dev/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
+      <description>ROS与Gazebo ROS 中将每一个进程视作一个节点（Node），节点之间的通信方式依靠：话题（Topic）、服务（Service）、参数（Parameter）。 控制器（Controller）与仿真（Gazebo）就是两个节点，利用 topic通信。 过程是：控制器从Gazebo读取机器</description>
+    </item>
+    
+  </channel>
+</rss>
