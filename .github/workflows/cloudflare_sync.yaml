@@ -61,6 +61,10 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   # Deployment job
   deploy:
@@ -71,6 +75,8 @@ jobs:
       deployments: write
     name: Deploy to Cloudflare Pages
     steps:
+      - name: Check public directory
+        run: ls ./public
       - name: Checkout
         uses: actions/checkout@v3
       - name: Publish
