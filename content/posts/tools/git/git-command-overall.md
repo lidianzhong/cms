@@ -3,6 +3,7 @@ title = 'Git 命令汇总'
 date = 2024-04-01T01:09:33+08:00
 draft = false
 tags = ["Git"]
+hidemeta = true
 +++
 
 ## Git 命令汇总
@@ -11,7 +12,7 @@ tags = ["Git"]
 
 1.1 查看当前分支
 
-``` bash
+```bash
 git branch
 ```
 
@@ -35,21 +36,18 @@ git branch -d test		# 删除 test 分支，如果分支没有被合并，使用 
 
 1.5 重命名分支
 
-``` bash
+```bash
 git branch -m <old_branch_name> <new_branch_name>
 ```
-
-
 
 ### 2. 撤销相关
 
 2.1 撤销最近的一次提交
 
-``` bash
+```bash
 git reset --hard HEAD~1		# 撤销最近的一次提交
 ```
 
+### 3. 将本地提交合并为一个
 
-
-
-
+[[Git\] 两种方法合并多个 commit 为一个\_git 合并部分 commit 为一个 commit-CSDN 博客](https://blog.csdn.net/Spade_/article/details/108698036)

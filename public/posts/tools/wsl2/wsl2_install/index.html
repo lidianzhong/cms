@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Wsl2_install | Dawn Journey</title>
 <meta name="keywords" content="">
-<meta name="description" content="安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws">
+<meta name="description" content="安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2 安装 ssh Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) wsl2 安装 vscode 开始通过 WSL">
 <meta name="author" content="Sulv">
-<link rel="canonical" href="https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/">
+<link rel="canonical" href="http://localhost:1313/posts/tools/wsl2/wsl2_install/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="icon" type="image/png" sizes="16x16" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="icon" type="image/png" sizes="32x32" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="apple-touch-icon" href="https://lidianzhong.gitee.io/img/Q.gif">
-<link rel="mask-icon" href="https://lidianzhong.gitee.io/img/Q.gif">
+<link rel="icon" href="http://localhost:1313/img/Q.gif">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/img/Q.gif">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/img/Q.gif">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/Q.gif">
+<link rel="mask-icon" href="http://localhost:1313/img/Q.gif">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/tools/wsl2/wsl2_install/">
 <noscript>
     <style>
         #theme-toggle,
@@ -47,15 +47,15 @@ var _hmt = _hmt || [];
 })();
 </script>
 <meta property="og:title" content="Wsl2_install" />
-<meta property="og:description" content="安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws" />
+<meta property="og:description" content="安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2 安装 ssh Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) wsl2 安装 vscode 开始通过 WSL" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:1313/posts/tools/wsl2/wsl2_install/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-04-16T01:25:45+08:00" />
 <meta property="article:modified_time" content="2024-04-16T01:25:45+08:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Wsl2_install"/>
-<meta name="twitter:description" content="安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws"/>
+<meta name="twitter:description" content="安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2 安装 ssh Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) wsl2 安装 vscode 开始通过 WSL"/>
 
 
 <script type="application/ld+json">
@@ -68,27 +68,27 @@ var _hmt = _hmt || [];
           "@type": "ListItem",
           "position":  1 ,
           "name": "📚文章",
-          "item": "https://lidianzhong.gitee.io/posts/"
+          "item": "http://localhost:1313/posts/"
         },
 
         {
           "@type": "ListItem",
           "position":  2 ,
           "name": "🔧 工具",
-          "item": "https://lidianzhong.gitee.io/posts/tools/"
+          "item": "http://localhost:1313/posts/tools/"
         },
 
         {
           "@type": "ListItem",
           "position":  3 ,
           "name": "WSL2",
-          "item": "https://lidianzhong.gitee.io/posts/tools/wsl2/"
+          "item": "http://localhost:1313/posts/tools/wsl2/"
         }, 
     {
       "@type": "ListItem",
       "position":  4 ,
       "name": "Wsl2_install",
-      "item": "https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/"
+      "item": "http://localhost:1313/posts/tools/wsl2/wsl2_install/"
     }
   ]
 }
@@ -99,12 +99,12 @@ var _hmt = _hmt || [];
   "@type": "BlogPosting",
   "headline": "Wsl2_install",
   "name": "Wsl2_install",
-  "description": "安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) ws",
+  "description": "安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn 常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc GNOME 桌面的文件管理器：nautilus 多媒体播放器：vlc Linux 的 Google Chrome：google-chrome wsl2 安装 ssh Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com) wsl2 安装 vscode 开始通过 WSL",
   "keywords": [
     ""
   ],
-  "articleBody": "安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn\n常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc\nGNOME 桌面的文件管理器：nautilus\n多媒体播放器：vlc\nLinux 的 Google Chrome：google-chrome\nwsl2安装ssh Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com)\nwsl2安装 vscode 开始通过 WSL 使用 VS Code | Microsoft Learn\n卸载wsl2中的 vscode Uninstall Visual Studio Code\n",
-  "wordCount" : "170",
+  "articleBody": "安装带图形化的 Ubuntu 使用 WSL 运行 Linux GUI 应用 | Microsoft Learn\n常用命令 在编辑器中启动 bashrc 文件：gnome-text-editor ~/.bashrc\nGNOME 桌面的文件管理器：nautilus\n多媒体播放器：vlc\nLinux 的 Google Chrome：google-chrome\nwsl2 安装 ssh Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com)\nwsl2 安装 vscode 开始通过 WSL 使用 VS Code | Microsoft Learn\n卸载 wsl2 中的 vscode Uninstall Visual Studio Code\n",
+  "wordCount" : "157",
   "inLanguage": "zh",
   "datePublished": "2024-04-16T01:25:45+08:00",
   "dateModified": "2024-04-16T01:25:45+08:00",
@@ -114,14 +114,14 @@ var _hmt = _hmt || [];
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_install/"
+    "@id": "http://localhost:1313/posts/tools/wsl2/wsl2_install/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Dawn Journey",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://lidianzhong.gitee.io/img/Q.gif"
+      "url": "http://localhost:1313/img/Q.gif"
     }
   }
 }
@@ -139,8 +139,8 @@ var _hmt = _hmt || [];
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://lidianzhong.gitee.io/" accesskey="h" title="Dawn Journey (Alt + H)">
-            <img src="https://lidianzhong.gitee.io/img/Q.gif" alt="logo" aria-label="logo"
+            <a href="http://localhost:1313/" accesskey="h" title="Dawn Journey (Alt + H)">
+            <img src="http://localhost:1313/img/Q.gif" alt="logo" aria-label="logo"
                  height="35">Dawn Journey</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -172,33 +172,33 @@ var _hmt = _hmt || [];
         </div>
         <ul id="menu">
             <li>
-                <a href="https://lidianzhong.gitee.io/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
-                <span>🔍 搜索</span>
+                <a href="http://localhost:1313/search" title="搜索 (Alt &#43; /)" accesskey=/>
+                <span>搜索</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/" title="🏠 主页">
-                <span>🏠 主页</span>
+                <a href="http://localhost:1313/" title="主页">
+                <span>主页</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/posts" title="📚 文章">
-                <span>📚 文章</span>
+                <a href="http://localhost:1313/posts" title="文章">
+                <span>文章</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/tags" title="🧩 标签">
-                <span>🧩 标签</span>
+                <a href="http://localhost:1313/tags" title="标签">
+                <span>标签</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/archives/" title="⏱️ 时间轴">
-                <span>⏱️ 时间轴</span>
+                <a href="http://localhost:1313/archives/" title="时间轴">
+                <span>时间轴</span>
                 </a>
             </li>
             <li>
-                <a href="https://lidianzhong.gitee.io/about" title="🙋🏻‍♂️ 关于">
-                <span>🙋🏻‍♂️ 关于</span>
+                <a href="http://localhost:1313/about" title="关于">
+                <span>关于</span>
                 </a>
             </li>
         </ul>
@@ -216,10 +216,11 @@ var _hmt = _hmt || [];
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="https://lidianzhong.gitee.io/">🏠 主页</a>&nbsp;»&nbsp;<a href="https://lidianzhong.gitee.io/posts/">📚文章</a>&nbsp;»&nbsp;<a href="https://lidianzhong.gitee.io/posts/tools/">🔧 工具</a>&nbsp;»&nbsp;<a href="https://lidianzhong.gitee.io/posts/tools/wsl2/">WSL2</a></div>
+            
             <h1 class="post-title">
                 Wsl2_install
             </h1>
+            <div style="height: 10px;"></div>
             <div class="post-meta">
 
 <style>
@@ -250,24 +251,8 @@ var _hmt = _hmt || [];
     
     
     
-    <span id="post_meta_style_3">
-        <span class="fa fa-file-word-o"></span>
-        <span>170字
-            &nbsp;&nbsp;
-        </span>
-    </span>
-    <span id="post_meta_style_4">
-        <span class="fa fa-clock-o"></span>
-        <span>1分钟
-            &nbsp;&nbsp;
-        </span>
-    </span>
-    <span id="post_meta_style_5">
-        <span class="fa fa-user-o"></span>
-        <span>Sulv
-            &nbsp;&nbsp;
-        </span>
-    </span>
+    
+    
     <span id="post_meta_style_6">
         <span class="fa fa-tags" style="opacity: 0.8"></span>
         <span>
@@ -276,57 +261,11 @@ var _hmt = _hmt || [];
         </span>
     </span>
 </span>
-<span style="opacity: 0.8;">
-                    <span id="post_meta_style_7">
-                        &nbsp;&nbsp;
-                        <span class="fa fa-eye" ></span>
-                        <span>
-                            <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span>
-                            &nbsp;&nbsp;
-                        </span>
-                    </span>
-                    <span id="post_meta_style_8">
-                        <span class="fa fa-commenting-o"></span>
-                        <span>
-                            <script src="https://cdn.staticfile.org/twikoo/1.6.32/twikoo.all.min.js"></script>
-                            <script>
-                                let url = document.documentURI
-                                
-                                let dnsUrl = "https://lidianzhong.gitee.io/"
-                                let urlSplit = url.split(dnsUrl)
-                                let finalUrl = urlSplit[1]
-                                if (finalUrl[0] !== '/') {
-                                    finalUrl = '/'+finalUrl
-                                }
-                                twikoo.getCommentsCount({
-                                    envId: "https://vercel.hzau.top", 
-                                region:  null , 
-                                urls: [ 
-                                    
-                                    finalUrl,
-                                ],
-                                    includeReply: false 
-                                }).then(function (res) {
-                                    let count = res[0].count
-                                    const obj = document.getElementById("comment_count");
-                                    obj.innerText = count
-                                    
-                                    
-                                    
-                                }).catch(function (err) {
-                                    
-                                    console.error(err);
-                                });
-                            </script>
-                            <span id="comment_count"></span>
-                        </span>
-                    </span>
-                </span>
 
 </div>
         </header> <aside id="toc-container" class="toc-container wide">
     <div class="toc">
-        <details  open>
+        <details >
         <summary accesskey="c" title="(Alt + C)">
             <span class="details">目录</span>
         </summary>
@@ -337,11 +276,11 @@ var _hmt = _hmt || [];
                 <li>
                     <a href="#%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4" aria-label="常用命令">常用命令</a></li>
                 <li>
-                    <a href="#wsl2%e5%ae%89%e8%a3%85ssh" aria-label="wsl2安装ssh">wsl2安装ssh</a></li>
+                    <a href="#wsl2-%e5%ae%89%e8%a3%85-ssh" aria-label="wsl2 安装 ssh">wsl2 安装 ssh</a></li>
                 <li>
-                    <a href="#wsl2%e5%ae%89%e8%a3%85-vscode" aria-label="wsl2安装 vscode">wsl2安装 vscode</a></li>
+                    <a href="#wsl2-%e5%ae%89%e8%a3%85-vscode" aria-label="wsl2 安装 vscode">wsl2 安装 vscode</a></li>
                 <li>
-                    <a href="#%e5%8d%b8%e8%bd%bdwsl2%e4%b8%ad%e7%9a%84-vscode" aria-label="卸载wsl2中的 vscode">卸载wsl2中的 vscode</a>
+                    <a href="#%e5%8d%b8%e8%bd%bd-wsl2-%e4%b8%ad%e7%9a%84-vscode" aria-label="卸载 wsl2 中的 vscode">卸载 wsl2 中的 vscode</a>
                 </li>
             </ul>
         </div>
@@ -415,11 +354,11 @@ var _hmt = _hmt || [];
 <p>GNOME 桌面的文件管理器：<code>nautilus</code></p>
 <p>多媒体播放器：<code>vlc</code></p>
 <p>Linux 的 Google Chrome：<code>google-chrome</code></p>
-<h3 id="wsl2安装ssh">wsl2安装ssh<a hidden class="anchor" aria-hidden="true" href="#wsl2安装ssh">#</a></h3>
-<p><a href="https://www.cnblogs.com/hsiangyu-meng/p/15575619.html">Windows 11 安装 WSL2 并ssh远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com)</a></p>
-<h3 id="wsl2安装-vscode">wsl2安装 vscode<a hidden class="anchor" aria-hidden="true" href="#wsl2安装-vscode">#</a></h3>
+<h3 id="wsl2-安装-ssh">wsl2 安装 ssh<a hidden class="anchor" aria-hidden="true" href="#wsl2-安装-ssh">#</a></h3>
+<p><a href="https://www.cnblogs.com/hsiangyu-meng/p/15575619.html">Windows 11 安装 WSL2 并 ssh 远程连接 - 麦克斯的园丁 - 博客园 (cnblogs.com)</a></p>
+<h3 id="wsl2-安装-vscode">wsl2 安装 vscode<a hidden class="anchor" aria-hidden="true" href="#wsl2-安装-vscode">#</a></h3>
 <p><a href="https://learn.microsoft.com/zh-cn/windows/wsl/tutorials/wsl-vscode">开始通过 WSL 使用 VS Code | Microsoft Learn</a></p>
-<h3 id="卸载wsl2中的-vscode">卸载wsl2中的 vscode<a hidden class="anchor" aria-hidden="true" href="#卸载wsl2中的-vscode">#</a></h3>
+<h3 id="卸载-wsl2-中的-vscode">卸载 wsl2 中的 vscode<a hidden class="anchor" aria-hidden="true" href="#卸载-wsl2-中的-vscode">#</a></h3>
 <p><a href="https://code.visualstudio.com/docs/setup/uninstall">Uninstall Visual Studio Code</a></p>
 
 
@@ -428,15 +367,15 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="https://lidianzhong.gitee.io/posts/tools/wsl2/wsl2_problem/">
+  <a class="prev" href="http://localhost:1313/posts/tools/wsl2/wsl2_problem/">
     <span class="title">« 上一页</span>
     <br>
     <span>Wsl2_problem</span>
   </a>
-  <a class="next" href="https://lidianzhong.gitee.io/posts/ubuntu/common_command/common_command/">
+  <a class="next" href="http://localhost:1313/posts/assembly/memory_location/">
     <span class="title">下一页 »</span>
     <br>
-    <span>Ubuntu 常用命令汇总</span>
+    <span>内存访问</span>
   </a>
 </nav>
 
@@ -484,7 +423,7 @@ var _hmt = _hmt || [];
         Copyright
         &copy;
         2024-2024
-        <a href="https://lidianzhong.gitee.io/" style="color:#939393;">Dawn Journey</a>
+        <a href="http://localhost:1313/" style="color:#939393;">Dawn Journey</a>
         All Rights Reserved
     </span>
     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;"></a>&nbsp;

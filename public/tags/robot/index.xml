@@ -2,53 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Robot on Dawn Journey</title>
-    <link>https://lidianzhong.gitee.io/tags/robot/</link>
+    <link>http://localhost:1313/tags/robot/</link>
     <description>Recent content in Robot on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/robot/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>go2 控制器方案</title>
-      <link>https://lidianzhong.gitee.io/posts/robot/draft/plan/</link>
-      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://lidianzhong.gitee.io/posts/robot/draft/plan/</guid>
-      <description>go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /</description>
-    </item>
-    
-    <item>
-      <title>安装汇总</title>
-      <link>https://lidianzhong.gitee.io/posts/robot/draft/install_draft/</link>
-      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://lidianzhong.gitee.io/posts/robot/draft/install_draft/</guid>
-      <description>安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本</description>
-    </item>
-    
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/robot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>四足机器人概述</title>
-      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/1_overview/</link>
+      <link>http://localhost:1313/posts/robot/robot_book/1_overview/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/1_overview/</guid>
+      <guid>http://localhost:1313/posts/robot/robot_book/1_overview/</guid>
       <description>介绍目前全球知名的四足机器人研究组织和相关的机器人和四足机器人总体概述 四足机器人发展现状 波士顿动力公司（Boston Dynamics） 相关机器人：Altas、Stretch、Spot 麻省理工学院 Biomimetic Robotics Lab 相关机器人：MIT Cheetah、MIT Mini Cheetah 苏黎世联邦理工学院（ETH Zuric</description>
     </item>
     
     <item>
       <title>机器人仿真与控制框架</title>
-      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
+      <link>http://localhost:1313/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
+      <guid>http://localhost:1313/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</guid>
       <description>ROS与Gazebo ROS 中将每一个进程视作一个节点（Node），节点之间的通信方式依靠：话题（Topic）、服务（Service）、参数（Parameter）。 控制器（Controller）与仿真（Gazebo）就是两个节点，利用 topic通信。 过程是：控制器从Gazebo读取机器</description>
     </item>
     
     <item>
       <title>四足机器人关节电机</title>
-      <link>https://lidianzhong.gitee.io/posts/robot/robot_book/2_guan_jie_dian_ji/</link>
+      <link>http://localhost:1313/posts/robot/robot_book/2_guan_jie_dian_ji/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/posts/robot/robot_book/2_guan_jie_dian_ji/</guid>
+      <guid>http://localhost:1313/posts/robot/robot_book/2_guan_jie_dian_ji/</guid>
       <description>后续开发的算法，最终结果都是生成发送给这12个关节电机的命令 四足机器人的动力系统 1. 永磁同步电机（PMSM） 通过控制定子上三个线圈的电流，可以控制电机的力矩和角度。这种控制方法叫做矢量控制（FOC）。 2. 关节电机的混合控制 关节电机的内部，已经封装了电机底层的控制算法。作为用户，只要给</description>
     </item>
     

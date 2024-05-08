@@ -20,10 +20,11 @@
                 {{ .Description }}
             </div>
             {{- end }}
+            <div style="height: 10px;"></div>
             {{- if not (.Param "hideMeta") }}
             <div class="post-meta">
                 {{- partial "post_meta.html" . -}}
-                <span style="opacity: 0.8;">
+                <!-- <span style="opacity: 0.8;">
                     <span id="post_meta_style_7">
                         &nbsp;&nbsp;
                         <span class="fa fa-eye" ></span>
@@ -68,7 +69,7 @@
                             <span id="comment_count"></span>
                         </span>
                     </span>
-                </span>
+                </span> -->
                 {{- partial "translation_list.html" . -}}
                 {{- partial "edit_post.html" . -}}
                 {{- partial "post_canonical.html" . -}}
@@ -105,15 +106,13 @@
                         <p>支付宝</p>
                     </div>
                 </div>
-                <button id="rewardButton"
-                        onclick="
+                <button id="rewardButton" onclick="
                     var qr = document.getElementById('QR');
                     if (qr.style.opacity === '0') {
                         qr.style.opacity='1';
                     } else {
                         qr.style.opacity='0'
-                    }"
-                >
+                    }">
                     <span>🧧 鼓励</span>
                 </button>
             </div>

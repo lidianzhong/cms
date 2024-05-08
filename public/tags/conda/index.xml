@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Conda on Dawn Journey</title>
-    <link>https://lidianzhong.gitee.io/tags/conda/</link>
+    <link>http://localhost:1313/tags/conda/</link>
     <description>Recent content in Conda on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 16 Apr 2024 13:52:25 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/tags/conda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Apr 2024 13:52:25 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/conda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conda 常用命令汇总</title>
-      <link>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</link>
+      <link>http://localhost:1313/posts/tools/gpu/conda_command/</link>
       <pubDate>Tue, 16 Apr 2024 13:52:25 +0800</pubDate>
       
-      <guid>https://lidianzhong.gitee.io/posts/ubuntu/py_environment/conda_command/</guid>
+      <guid>http://localhost:1313/posts/tools/gpu/conda_command/</guid>
       <description>卸载 Conda 环境 conda env remove --name myenv</description>
     </item>
     

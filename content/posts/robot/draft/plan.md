@@ -15,10 +15,10 @@ comments: true
 reward: false # 打赏
 mermaid: false #是否开启mermaid
 showToc: true # 显示目录
-TocOpen: true # 自动展开目录
+TocOpen: false # 自动展开目录
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
-showbreadcrumbs: true #顶部显示路径
+showbreadcrumbs: false #顶部显示路径
 cover:
     image: "" #图片路径例如：posts/tech/123/123.png
     caption: "" #图片底部描述
@@ -32,12 +32,10 @@ cover:
 
 发布：`api/sport/request`，类型为 `unitree_api::msg::Request`
 
-
-
 > **unitree_go::msg::SportModeState**
 >
 > ```cpp
-> TimeSpec stamp(); 
+> TimeSpec stamp();
 > uint32_t errorCode(); //错误代码
 > IMU imuState(); //IMU状态
 > uint8_t mode(); //运动模式
@@ -58,19 +56,19 @@ cover:
 > 12. frontJump
 > 13. frontPounc
 > */
-> 
+>
 > float progress(); //是否动作执行状态：0. dance false; 1. dance true
 > uint8_t gaitType(); //步态类型
 > /*
 > 步态类型
-> 0.idle  
-> 1.trot  
-> 2.run  
-> 3.climb stair  
-> 4.forwardDownStair   
+> 0.idle
+> 1.trot
+> 2.run
+> 3.climb stair
+> 4.forwardDownStair
 > 9.adjust
 > */
-> 
+>
 > float footRaiseHeight(); //抬腿高度
 > std::array<float, 3> position(); //三维位置
 > float bodyHeight(); //机体高度
@@ -83,23 +81,19 @@ cover:
 > std::array<PathPoint, 10>  pathPoints(); //当前跟踪的路径点
 > ```
 >
->  
->
 > **unitree_api::msg::Request**
 >
-> ``` bash
+> ```bash
 > RequestHeader header
 > string parameter
 > uint8[] binary
 > ```
->
-> 
 
-对  unitree_api::msg::Request 中的 string parameter 参数进行解析：
+对 unitree_api::msg::Request 中的 string parameter 参数进行解析：
 
 消息案例：
 
-``` json
+```json
 Parameter: [ {
     "t_from_start": 0.0, "vx":0.38878634572029114, "vy":0.0, "vyaw":0.0, "x":0.3143965005874634, "y":0.0, "yaw":0.0
 }
@@ -113,9 +107,9 @@ Parameter: [ {
 {
 "t_from_start": 0.4000000059604645, "vx":0.31857556104660034, "vy":0.0, "vyaw":0.0, "x":0.3853694498538971, "y":0.0, "yaw":0.0
 }
-            
+
 .......
-            
+
 ]
 
 ```
@@ -123,9 +117,9 @@ Parameter: [ {
 消息含义解释：
 
 - `"t_from_start"`: 从路径开始到达此点所需的时间。
-- `"vx"`: 在此点的x方向上的期望速度。
-- `"vy"`: 在此点的y方向上的期望速度。
+- `"vx"`: 在此点的 x 方向上的期望速度。
+- `"vy"`: 在此点的 y 方向上的期望速度。
 - `"vyaw"`: 在此点的期望偏航速度。
-- `"x"`: 此点的x坐标。
-- `"y"`: 此点的y坐标。
+- `"x"`: 此点的 x 坐标。
+- `"y"`: 此点的 y 坐标。
 - `"yaw"`: 此点的偏航角。

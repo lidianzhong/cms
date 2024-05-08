@@ -15,10 +15,10 @@ comments: true
 reward: false # 打赏
 mermaid: false #是否开启mermaid
 showToc: true # 显示目录
-TocOpen: true # 自动展开目录
+TocOpen: false # 自动展开目录
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
-showbreadcrumbs: true #顶部显示路径
+showbreadcrumbs: false #顶部显示路径
 cover:
     image: "" #图片路径例如：posts/tech/123/123.png
     caption: "" #图片底部描述
@@ -41,7 +41,7 @@ sudo apt install ros-humble-ros2-controllers
 
 ---
 
-### 使用 RosTeamWS ROS工作区模板
+### 使用 RosTeamWS ROS 工作区模板
 
 能够快速地创建特定 ros 功能包，提供模板功能
 
@@ -74,10 +74,9 @@ https://staging.gazebosim.org/docs/harmonic/install_ubuntu
 
 ---
 
-### 安装 python2 版本和 python3 版本的numpy
+### 安装 python2 版本和 python3 版本的 numpy
 
 ```shell
 sudo apt-get install python-numpy  # python2 numpy
 sudo apt-get install python3-numpy  # python3 numpy
 ```
-

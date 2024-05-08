@@ -15,10 +15,10 @@ comments: true
 reward: false # 打赏
 mermaid: false #是否开启mermaid
 showToc: true # 显示目录
-TocOpen: true # 自动展开目录
+TocOpen: false # 自动展开目录
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
-showbreadcrumbs: true #顶部显示路径
+showbreadcrumbs: false #顶部显示路径
 cover:
     image: "" #图片路径例如：posts/tech/123/123.png
     caption: "" #图片底部描述
@@ -49,12 +49,7 @@ cover:
 
 相关机器人：Laikago、Aliengo、A1、Go1、Go2
 
-
-
 ---
-
-
-
 
 ### 四足机器人的组成
 
@@ -67,10 +62,3 @@ cover:
 通信系统：各个关节电机、传感器、遥控手柄的通信
 
 能源系统：使用电池或者外部直流电源进行供电
-
-
-
-
-
-
-

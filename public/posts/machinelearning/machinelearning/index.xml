@@ -2,19 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>机器学习 on Dawn Journey</title>
-    <link>https://lidianzhong.gitee.io/posts/machinelearning/machinelearning/</link>
+    <link>http://localhost:1313/posts/machinelearning/machinelearning/</link>
     <description>Recent content in 机器学习 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 20 Apr 2024 12:55:44 +0800</lastBuildDate><atom:link href="https://lidianzhong.gitee.io/posts/machinelearning/machinelearning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>机器学习中的潜变量</title>
-      <link>https://lidianzhong.gitee.io/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</link>
-      <pubDate>Sat, 20 Apr 2024 12:55:44 +0800</pubDate>
-      
-      <guid>https://lidianzhong.gitee.io/posts/machinelearning/machinelearning/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%BD%9C%E5%8F%98%E9%87%8F/</guid>
-      <description>什么是潜变量 潜变量，潜在变量，与观测变量相对，意思是不可观测的随机变量。 那么潜变量可以被推断出来吗？可以。通过数学模型依据观测得的数据可推断潜在变量。其中用潜在变量解释观测变量的数学模型称为潜变量模型。 潜变量和现实一些因素是有关系的，测量这些因素表面上可行，实际上很困难，这些通常</description>
-    </item>
-    
+    <lastBuildDate>Sat, 20 Apr 2024 12:55:44 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/machinelearning/machinelearning/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
