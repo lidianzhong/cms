@@ -77,10 +77,9 @@ jobs:
     name: Deploy to Cloudflare Pages
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: public-artifact
-          path: ./public
       - name: Check public directory
         run: ls ./public
       - name: Checkout
