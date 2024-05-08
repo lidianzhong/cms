@@ -64,6 +64,8 @@ jobs:
 
           git checkout cf-deploy
           git add public/* -f
+          git config --global user.email "2942033733@qq.com"
+          git config --global user.name "lidianzhong"
           git commit -m "Deploy to Cloudflare Pages"
           git push origin cf-deploy
 
