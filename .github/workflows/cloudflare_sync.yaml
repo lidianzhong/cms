@@ -19,13 +19,6 @@ jobs:
       deployments: write
     name: Deploy to Cloudflare Pages
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: public-pages
-          path: ./public
-      - name: Check public directory
-        run: ls public
       - name: Checkout
         uses: actions/checkout@v3
       - name: Publish
@@ -34,5 +27,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: drawjourney # e.g. 'my-project'
-          directory: ./public # e.g. 'dist'
+          directory: dist # e.g. 'dist'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
