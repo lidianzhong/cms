@@ -65,7 +65,7 @@ jobs:
           git checkout cf-deploy
           git add public/*
           git commit -m "Deploy to Cloudflare Pages"
-          git push origin cf-deploy
+          git push origin cf-deploy --force
 
   # Deployment job
   deploy:
