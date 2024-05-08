@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Drafts on Dawn Journey</title>
-    <link>https://drawjourney.pages.dev/draft/</link>
+    <link>https://blog.hzau.top/draft/</link>
     <description>Recent content in Drafts on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language><atom:link href="https://drawjourney.pages.dev/draft/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language><atom:link href="https://blog.hzau.top/draft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://drawjourney.pages.dev/draft/create_docker_image_for_unitree_ws/</link>
+      <link>https://blog.hzau.top/draft/create_docker_image_for_unitree_ws/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://drawjourney.pages.dev/draft/create_docker_image_for_unitree_ws/</guid>
+      <guid>https://blog.hzau.top/draft/create_docker_image_for_unitree_ws/</guid>
       <description>1. create container docker run -d --restart=on-failure \ --name unitree_ws \ --cap-add=SYS_PTRACE \ --gpus=&amp;#39;&amp;#34;device=1&amp;#34;&amp;#39; \ -e USER=unitree \ -e PASSWORD=123 \ --shm-size=1024m \ -p 10025:22 \ -p 14025:4000 \ registry.cn-hongkong.aliyuncs.com/gezp/ubuntu-desktop:20.04-cu11.0.3 the default username and password are both ubuntu. 2. access conatiner by ssh ( recommended to use vscode + remote ssh plugin) ssh ubuntu@host-ip -p 10025 3. 安装 ros1 noetic 和 ros2 foxy wget http://fishros.com/install -O fishros &amp;amp;&amp;amp; . fishros 4. 安装 unitree_guide 安装 lcm git clone https://github.com/lcm-proj/lcm.git git checkout v1.4.0 apt install -y openjdk-8-jdk mkdir build cd build cmake .. make export LCM_INSTALL_DIR=/usr/local/lib sudo make install sudo ldconfig Ubuntu20.04安装、编译LCM1.4.0教程_ubuntu20.04</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://drawjourney.pages.dev/draft/drl_grasping_for_docker_image/</link>
+      <link>https://blog.hzau.top/draft/drl_grasping_for_docker_image/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://drawjourney.pages.dev/draft/drl_grasping_for_docker_image/</guid>
+      <guid>https://blog.hzau.top/draft/drl_grasping_for_docker_image/</guid>
       <description>开始 删除原有软件源并更新软件源 在 .bashrc 文件中编辑 export PYTHONPATH=~/ws/src/O-CNN/octree/build/python:${PYTHONPATH} 进入 ws 目录 source ~/.bashrc &amp;amp;&amp;amp; cd ws &amp;amp;&amp;amp; . install/setup.bash 执行命令 ros2 run drl_grasping ex_random_agent.bash 你可能会收到如下错误： export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=/root/ws/install/lib</description>
     </item>
     
