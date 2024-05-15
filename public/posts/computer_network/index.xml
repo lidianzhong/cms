@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🛜 计算机网络 on Dawn Journey</title>
-    <link>http://localhost:52549/posts/computer_network/</link>
+    <link>http://localhost:55736/posts/computer_network/</link>
     <description>Recent content in 🛜 计算机网络 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:52549/posts/computer_network/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:55736/posts/computer_network/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>计算机网络中的概念/术语</title>
-      <link>http://localhost:52549/posts/computer_network/computer_network_concept/</link>
+      <link>http://localhost:55736/posts/computer_network/computer_network_concept/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:52549/posts/computer_network/computer_network_concept/</guid>
+      <guid>http://localhost:55736/posts/computer_network/computer_network_concept/</guid>
       <description>计算机网络中常见的概念/术语 IP 简单来说就是在网络中标识一个特定的网络设备。但由于IP往往不够用，所以一般是这么做的。想象这么一个场景，有一个电脑机房，有很多电脑。我们会拿出一个IP，叫做公网IP，用于与外部互联网进行访问。再弄个路由器或者交换机，分配很多个IP，给本地的电脑一个电</description>
     </item>
     

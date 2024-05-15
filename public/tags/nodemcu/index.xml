@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NodeMCU on Dawn Journey</title>
-    <link>http://localhost:52549/tags/nodemcu/</link>
+    <link>http://localhost:55736/tags/nodemcu/</link>
     <description>Recent content in NodeMCU on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Apr 2024 02:54:39 +0800</lastBuildDate><atom:link href="http://localhost:52549/tags/nodemcu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 02:54:39 +0800</lastBuildDate><atom:link href="http://localhost:55736/tags/nodemcu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NodeMCU 简介</title>
-      <link>http://localhost:52549/posts/embedded_system/nodemcu/nodemcu/</link>
+      <link>http://localhost:55736/posts/embedded_system/nodemcu/nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>http://localhost:52549/posts/embedded_system/nodemcu/nodemcu/</guid>
+      <guid>http://localhost:55736/posts/embedded_system/nodemcu/nodemcu/</guid>
       <description>ESP8266 ESP8266 利用 WiFi 联网时有三种工作模式。 Station 模式：工作在 Station 模式下的 ESP8266 就像是一个接收机一样，它可以接收来自无线路由器发出的信号。ESP8266 模块通过路由器连接互联网，手机或电脑通过互联网实现对设备的远程控制。 SoftAP 模式：无线接入点的简称，ESP8266 模块作为热点，实现手机或电脑直接与模块通信</description>
     </item>
     
     <item>
       <title>NodeMCU 编程遇到的问题</title>
-      <link>http://localhost:52549/posts/embedded_system/nodemcu/problem_nodemcu/</link>
+      <link>http://localhost:55736/posts/embedded_system/nodemcu/problem_nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
       
-      <guid>http://localhost:52549/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
+      <guid>http://localhost:55736/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
       <description>1. command ‘platformio-ide.build‘ not found 解决：关闭 Vscode 再打开就好了~ 2. PlatformIO 串口显示乱码 解决：串口监视器和单片机波特率不一致 [env:nodemcuv2] platform = espressif8266 board = nodemcuv2 framework = esp8266-rtos-sdk monitor_speed = 74880 ; 监视器波特率设置 monitor_port = COM3 ; 监视器端口设置，设置为连接的串口端口 3. PlatformIO 串口显示开头乱码 原因：很有可能是因为你之前烧写的程序没关，</description>
     </item>
     

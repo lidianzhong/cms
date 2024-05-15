@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52549&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=55736&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="原因分析 使用 df -h 发现，根目录的挂载 / 点的磁盘空间满了，然后发现是 docker 的原因，占用空间太大 解决方法 方法一：删除 docker Overlay2 中的部分内容 方法二（推荐）：修改 docker 的默认存储路径 /var/lib/docker 具体执行 参考：记录一次 docker Overlay2 占用磁盘空间 99%的清理过程 | Laravel China 社区 (learnku.com)">
 <meta name="author" content="Leo">
-<link rel="canonical" href="http://localhost:52549/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/">
+<link rel="canonical" href="http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="http://localhost:52549/img/Q.gif">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:52549/img/Q.gif">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:52549/img/Q.gif">
-<link rel="apple-touch-icon" href="http://localhost:52549/img/Q.gif">
-<link rel="mask-icon" href="http://localhost:52549/img/Q.gif">
+<link rel="icon" href="http://localhost:55736/img/Q.gif">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:55736/img/Q.gif">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:55736/img/Q.gif">
+<link rel="apple-touch-icon" href="http://localhost:55736/img/Q.gif">
+<link rel="mask-icon" href="http://localhost:55736/img/Q.gif">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="http://localhost:52549/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/">
+<link rel="alternate" hreflang="zh" href="http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/">
 <noscript>
     <style>
         #theme-toggle,
@@ -49,7 +49,7 @@ var _hmt = _hmt || [];
 <meta property="og:title" content="磁盘空间不足" />
 <meta property="og:description" content="原因分析 使用 df -h 发现，根目录的挂载 / 点的磁盘空间满了，然后发现是 docker 的原因，占用空间太大 解决方法 方法一：删除 docker Overlay2 中的部分内容 方法二（推荐）：修改 docker 的默认存储路径 /var/lib/docker 具体执行 参考：记录一次 docker Overlay2 占用磁盘空间 99%的清理过程 | Laravel China 社区 (learnku.com)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:52549/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-04-22T02:15:05+08:00" />
 <meta property="article:modified_time" content="2024-04-22T02:15:05+08:00" />
 
@@ -68,27 +68,27 @@ var _hmt = _hmt || [];
           "@type": "ListItem",
           "position":  1 ,
           "name": "📚文章",
-          "item": "http://localhost:52549/posts/"
+          "item": "http://localhost:55736/posts/"
         },
 
         {
           "@type": "ListItem",
           "position":  2 ,
           "name": "🟠 Ubuntu",
-          "item": "http://localhost:52549/posts/ubuntu/"
+          "item": "http://localhost:55736/posts/ubuntu/"
         },
 
         {
           "@type": "ListItem",
           "position":  3 ,
           "name": "Ubuntu 相关问题",
-          "item": "http://localhost:52549/posts/ubuntu/problem/"
+          "item": "http://localhost:55736/posts/ubuntu/problem/"
         }, 
     {
       "@type": "ListItem",
       "position":  4 ,
       "name": "磁盘空间不足",
-      "item": "http://localhost:52549/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/"
+      "item": "http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/"
     }
   ]
 }
@@ -114,14 +114,14 @@ var _hmt = _hmt || [];
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:52549/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/"
+    "@id": "http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Dawn Journey",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:52549/img/Q.gif"
+      "url": "http://localhost:55736/img/Q.gif"
     }
   }
 }
@@ -139,8 +139,8 @@ var _hmt = _hmt || [];
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:52549/" accesskey="h" title="Dawn Journey (Alt + H)">
-            <img src="http://localhost:52549/img/Q.gif" alt="logo" aria-label="logo"
+            <a href="http://localhost:55736/" accesskey="h" title="Dawn Journey (Alt + H)">
+            <img src="http://localhost:55736/img/Q.gif" alt="logo" aria-label="logo"
                  height="35">Dawn Journey</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -172,32 +172,32 @@ var _hmt = _hmt || [];
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:52549/search" title="搜索 (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:55736/search" title="搜索 (Alt &#43; /)" accesskey=/>
                 <span>搜索</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:52549/" title="主页">
+                <a href="http://localhost:55736/" title="主页">
                 <span>主页</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:52549/posts" title="文章">
+                <a href="http://localhost:55736/posts" title="文章">
                 <span>文章</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:52549/tags" title="标签">
+                <a href="http://localhost:55736/tags" title="标签">
                 <span>标签</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:52549/archives/" title="时间轴">
+                <a href="http://localhost:55736/archives/" title="时间轴">
                 <span>时间轴</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:52549/about" title="关于">
+                <a href="http://localhost:55736/about" title="关于">
                 <span>关于</span>
                 </a>
             </li>
@@ -357,12 +357,12 @@ var _hmt = _hmt || [];
         <footer class="post-footer">
             
 <nav class="paginav">
-  <a class="prev" href="http://localhost:52549/posts/machinelearning/deeplearning/representationlearning/">
+  <a class="prev" href="http://localhost:55736/posts/machinelearning/deeplearning/representationlearning/">
     <span class="title">« 上一页</span>
     <br>
     <span>Representation Learning</span>
   </a>
-  <a class="next" href="http://localhost:52549/posts/tools/docker/docker_common_command/">
+  <a class="next" href="http://localhost:55736/posts/tools/docker/docker_common_command/">
     <span class="title">下一页 »</span>
     <br>
     <span>常用命令</span>
@@ -413,7 +413,7 @@ var _hmt = _hmt || [];
         Copyright
         &copy;
         2024-2024
-        <a href="http://localhost:52549/" style="color:#939393;">Dawn Journey</a>
+        <a href="http://localhost:55736/" style="color:#939393;">Dawn Journey</a>
         All Rights Reserved
     </span>
     <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;"></a>&nbsp;
