@@ -2,143 +2,179 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🧩 标签 on Dawn Journey</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:55736/tags/</link>
     <description>Recent content in 🧩 标签 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:55736/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ros</title>
-      <link>http://localhost:1313/tags/ros/</link>
+      <link>http://localhost:55736/tags/ros/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ros/</guid>
+      <guid>http://localhost:55736/tags/ros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安装</title>
-      <link>http://localhost:1313/tags/%E5%AE%89%E8%A3%85/</link>
+      <link>http://localhost:55736/tags/%E5%AE%89%E8%A3%85/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/%E5%AE%89%E8%A3%85/</guid>
+      <guid>http://localhost:55736/tags/%E5%AE%89%E8%A3%85/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>计算机网络</title>
+      <link>http://localhost:55736/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:55736/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bug</title>
-      <link>http://localhost:1313/tags/bug/</link>
+      <link>http://localhost:55736/tags/bug/</link>
       <pubDate>Sun, 28 Apr 2024 02:48:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/bug/</guid>
+      <guid>http://localhost:55736/tags/bug/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>http://localhost:1313/tags/ubuntu/</link>
+      <link>http://localhost:55736/tags/ubuntu/</link>
       <pubDate>Sun, 28 Apr 2024 02:48:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/ubuntu/</guid>
+      <guid>http://localhost:55736/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:55736/tags/docker/</link>
+      <pubDate>Sat, 27 Apr 2024 00:41:17 +0800</pubDate>
+      
+      <guid>http://localhost:55736/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install</title>
+      <link>http://localhost:55736/tags/install/</link>
+      <pubDate>Sat, 27 Apr 2024 00:41:17 +0800</pubDate>
+      
+      <guid>http://localhost:55736/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeepLearning</title>
+      <link>http://localhost:55736/tags/deeplearning/</link>
+      <pubDate>Sat, 20 Apr 2024 12:55:44 +0800</pubDate>
+      
+      <guid>http://localhost:55736/tags/deeplearning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network</title>
-      <link>http://localhost:1313/tags/network/</link>
+      <link>http://localhost:55736/tags/network/</link>
       <pubDate>Sat, 20 Apr 2024 02:32:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/network/</guid>
+      <guid>http://localhost:55736/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gpu</title>
-      <link>http://localhost:1313/tags/gpu/</link>
+      <link>http://localhost:55736/tags/gpu/</link>
       <pubDate>Fri, 19 Apr 2024 16:56:28 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/gpu/</guid>
+      <guid>http://localhost:55736/tags/gpu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conda</title>
-      <link>http://localhost:1313/tags/conda/</link>
+      <link>http://localhost:55736/tags/conda/</link>
       <pubDate>Tue, 16 Apr 2024 13:52:25 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/conda/</guid>
+      <guid>http://localhost:55736/tags/conda/</guid>
       <description></description>
     </item>
     
     <item>
       <title>汇编</title>
-      <link>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</link>
+      <link>http://localhost:55736/tags/%E6%B1%87%E7%BC%96/</link>
       <pubDate>Mon, 15 Apr 2024 19:14:13 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</guid>
+      <guid>http://localhost:55736/tags/%E6%B1%87%E7%BC%96/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
+      <link>http://localhost:55736/tags/python/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/python/</guid>
+      <guid>http://localhost:55736/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NodeMCU</title>
-      <link>http://localhost:1313/tags/nodemcu/</link>
+      <link>http://localhost:55736/tags/nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/nodemcu/</guid>
+      <guid>http://localhost:55736/tags/nodemcu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>嵌入式</title>
-      <link>http://localhost:1313/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</link>
+      <link>http://localhost:55736/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</link>
       <pubDate>Fri, 12 Apr 2024 02:54:39 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</guid>
+      <guid>http://localhost:55736/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Overview</title>
-      <link>http://localhost:1313/tags/overview/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:55736/tags/overview/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/overview/</guid>
+      <guid>http://localhost:55736/tags/overview/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robot</title>
-      <link>http://localhost:1313/tags/robot/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <link>http://localhost:55736/tags/robot/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/robot/</guid>
+      <guid>http://localhost:55736/tags/robot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simulation</title>
-      <link>http://localhost:1313/tags/simulation/</link>
+      <link>http://localhost:55736/tags/simulation/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/simulation/</guid>
+      <guid>http://localhost:55736/tags/simulation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>http://localhost:55736/tags/git/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/tags/git/</guid>
+      <guid>http://localhost:55736/tags/git/</guid>
       <description></description>
     </item>
     

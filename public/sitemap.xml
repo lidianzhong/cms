@@ -2,201 +2,254 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/robot/ros/</loc>
+    <loc>http://localhost:55736/posts/robot/ros/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/</loc>
+    <loc>http://localhost:55736/posts/ubuntu/</loc>
     <lastmod>2024-04-28T02:48:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/machinelearning/deeplearning/</loc>
+    <loc>http://localhost:55736/posts/machinelearning/deeplearning/</loc>
     <lastmod>2024-04-22T03:18:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/machinelearning/machinelearning/</loc>
+    <loc>http://localhost:55736/posts/machinelearning/machinelearning/</loc>
     <lastmod>2024-04-20T12:55:44+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/common_command/common_command/</loc>
+    <loc>http://localhost:55736/posts/ubuntu/common_command/common_command/</loc>
     <lastmod>2024-04-16T01:20:57+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/python/grammar/</loc>
+    <loc>http://localhost:55736/posts/python/grammar/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/robot_book/1_overview/</loc>
+    <loc>http://localhost:55736/posts/robot/draft/plan/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/robot/draft/install_draft/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/robot/robot_book/1_overview/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/git/</loc>
+    <loc>http://localhost:55736/posts/tools/git/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/</loc>
+    <loc>http://localhost:55736/posts/tools/</loc>
     <lastmod>2024-04-28T03:40:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/wsl2/</loc>
+    <loc>http://localhost:55736/posts/tools/wsl2/</loc>
     <lastmod>2024-04-20T02:32:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:55736/posts/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</loc>
+    <loc>http://localhost:55736/posts/robot/robot_book/3_ji_qi_ren_fang_zhen_yu_kong_zhi_kuang_jia/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/computer_network/</loc>
+    <loc>http://localhost:55736/posts/computer_network/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/problem/</loc>
+    <loc>http://localhost:55736/posts/ubuntu/problem/</loc>
     <lastmod>2024-04-28T02:48:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/gpu/</loc>
+    <loc>http://localhost:55736/posts/tools/gpu/</loc>
     <lastmod>2024-04-19T16:56:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:55736/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ros/</loc>
+    <loc>http://localhost:55736/tags/ros/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/ros/ros_noetic_install_from_source/</loc>
+    <loc>http://localhost:55736/posts/robot/ros/ros_noetic_install_from_source/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/</loc>
+    <loc>http://localhost:55736/posts/robot/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:55736/tags/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://localhost:55736/tags/%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/problem/apt_problem/</loc>
+    <loc>http://localhost:55736/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2024-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/computer_network/computer_network_concept/</loc>
+    <lastmod>2024-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/tools/docker/docker_problem/</loc>
+    <lastmod>2024-04-28T03:40:16+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/ubuntu/problem/apt_problem/</loc>
     <lastmod>2024-04-28T02:48:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bug/</loc>
+    <loc>http://localhost:55736/tags/bug/</loc>
     <lastmod>2024-04-28T02:48:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ubuntu/</loc>
+    <loc>http://localhost:55736/tags/ubuntu/</loc>
     <lastmod>2024-04-28T02:48:48+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/windows/</loc>
+    <loc>http://localhost:55736/posts/windows/</loc>
     <lastmod>2024-04-27T00:55:27+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paper/</loc>
+    <loc>http://localhost:55736/posts/windows/windows%E4%B8%AD%E7%9A%84bug/</loc>
+    <lastmod>2024-04-27T00:55:27+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/tags/docker/</loc>
+    <lastmod>2024-04-27T00:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/tools/docker/install/</loc>
+    <lastmod>2024-04-27T00:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/tags/install/</loc>
+    <lastmod>2024-04-27T00:41:17+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/tools/mysql/problem/</loc>
+    <lastmod>2024-04-26T13:37:23+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/paper/</loc>
     <lastmod>2024-04-25T00:59:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paper/precision_medicine/</loc>
+    <loc>http://localhost:55736/posts/paper/precision_medicine/a_community_effort_to_assess_and_improve_drug_sensitivity_prediction_algorithms/</loc>
     <lastmod>2024-04-25T00:59:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
+    <loc>http://localhost:55736/posts/paper/precision_medicine/</loc>
+    <lastmod>2024-04-25T00:59:34+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2024-04-23T01:13:21+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/machinelearning/</loc>
+    <loc>http://localhost:55736/posts/machinelearning/</loc>
     <lastmod>2024-04-22T03:18:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</loc>
+    <loc>http://localhost:55736/posts/machinelearning/deeplearning/representationlearning/</loc>
+    <lastmod>2024-04-22T03:18:36+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</loc>
     <lastmod>2024-04-22T02:15:05+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/embedded_system/</loc>
+    <loc>http://localhost:55736/posts/tools/docker/docker_common_command/</loc>
+    <lastmod>2024-04-22T01:06:08+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/embedded_system/</loc>
     <lastmod>2024-04-21T13:07:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/network/</loc>
+    <loc>http://localhost:55736/posts/embedded_system/nodemcu/nodemcu_esp8266_%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2024-04-21T13:07:22+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/tags/deeplearning/</loc>
+    <lastmod>2024-04-20T12:55:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/machinelearning/machinelearning/latent_space_in_machine_learning/</loc>
+    <lastmod>2024-04-20T12:55:44+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/tags/network/</loc>
     <lastmod>2024-04-20T02:32:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://localhost:55736/posts/tools/wsl2/%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AEwsl2%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2024-04-20T02:32:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gpu/</loc>
+    <loc>http://localhost:55736/tags/gpu/</loc>
     <lastmod>2024-04-19T16:56:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/gpu/graphics_card/</loc>
+    <loc>http://localhost:55736/posts/tools/gpu/graphics_card/</loc>
     <lastmod>2024-04-19T16:56:28+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/conda/</loc>
+    <loc>http://localhost:55736/tags/conda/</loc>
     <lastmod>2024-04-16T13:52:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/gpu/conda_command/</loc>
+    <loc>http://localhost:55736/posts/tools/gpu/conda_command/</loc>
     <lastmod>2024-04-16T13:52:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/wsl2/wsl2_problem/</loc>
+    <loc>http://localhost:55736/posts/tools/wsl2/wsl2_problem/</loc>
     <lastmod>2024-04-16T13:13:20+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/wsl2/wsl2_install/</loc>
+    <loc>http://localhost:55736/posts/tools/wsl2/wsl2_install/</loc>
     <lastmod>2024-04-16T01:25:45+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/assembly/</loc>
+    <loc>http://localhost:55736/posts/assembly/</loc>
     <lastmod>2024-04-15T19:14:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</loc>
+    <loc>http://localhost:55736/tags/%E6%B1%87%E7%BC%96/</loc>
     <lastmod>2024-04-15T19:14:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/assembly/memory_location/</loc>
+    <loc>http://localhost:55736/posts/assembly/memory_location/</loc>
     <lastmod>2024-04-15T19:14:13+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/python/</loc>
+    <loc>http://localhost:55736/posts/python/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>http://localhost:55736/tags/python/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nodemcu/</loc>
+    <loc>http://localhost:55736/tags/nodemcu/</loc>
     <lastmod>2024-04-12T02:54:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/embedded_system/nodemcu/nodemcu/</loc>
+    <loc>http://localhost:55736/posts/embedded_system/nodemcu/nodemcu/</loc>
     <lastmod>2024-04-12T02:54:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
+    <loc>http://localhost:55736/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
     <lastmod>2024-04-12T02:54:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</loc>
+    <loc>http://localhost:55736/posts/embedded_system/nodemcu/problem_nodemcu/</loc>
     <lastmod>2024-04-12T02:12:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/embedded_system/nodemcu/common_commands/</loc>
+    <loc>http://localhost:55736/posts/embedded_system/nodemcu/common_commands/</loc>
     <lastmod>2024-04-12T00:57:30+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/ros/ros_install/</loc>
+    <loc>http://localhost:55736/posts/robot/draft/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/tags/overview/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/tags/robot/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:55736/posts/robot/ros/ros_install/</loc>
     <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/ros/ros_about/</loc>
+    <loc>http://localhost:55736/posts/robot/ros/ros_about/</loc>
     <lastmod>2024-04-19T17:06:23+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/robot_book/</loc>
+    <loc>http://localhost:55736/posts/robot/robot_book/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/overview/</loc>
+    <loc>http://localhost:55736/tags/simulation/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/robot/</loc>
+    <loc>http://localhost:55736/links/</loc>
     <lastmod>2024-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/simulation/</loc>
-    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/links/</loc>
-    <lastmod>2024-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>http://localhost:55736/tags/git/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/git/git-command-overall/</loc>
+    <loc>http://localhost:55736/posts/tools/git/git-command-overall/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</loc>
+    <loc>http://localhost:55736/posts/tools/git/solve-git-slow-problem/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/robot/robot_book/2_guan_jie_dian_ji/</loc>
+    <loc>http://localhost:55736/posts/robot/robot_book/2_guan_jie_dian_ji/</loc>
     <lastmod>2024-04-01T01:09:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:55736/about/</loc>
     <lastmod>2024-04-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/draft/create_docker_image_for_unitree_ws/</loc>
+    <loc>http://localhost:55736/draft/create_docker_image_for_unitree_ws/</loc>
   </url><url>
-    <loc>http://localhost:1313/draft/drl_grasping_for_docker_image/</loc>
+    <loc>http://localhost:55736/draft/drl_grasping_for_docker_image/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://localhost:55736/draft/right_manage_system/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:55736/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:55736/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/draft/</loc>
+    <loc>http://localhost:55736/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:55736/draft/</loc>
+  </url><url>
+    <loc>http://localhost:55736/series/</loc>
   </url>
 </urlset>

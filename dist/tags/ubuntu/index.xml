@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ubuntu on Dawn Journey</title>
+    <link>https://blog.hzau.top/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 28 Apr 2024 02:48:48 +0800</lastBuildDate><atom:link href="https://blog.hzau.top/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 常用命令</title>
+      <link>https://blog.hzau.top/posts/ubuntu/common_command/common_command/</link>
+      <pubDate>Tue, 16 Apr 2024 01:20:57 +0800</pubDate>
+      
+      <guid>https://blog.hzau.top/posts/ubuntu/common_command/common_command/</guid>
+      <description>国内镜像源 apt 清华源 配置地址：/etc/apt/sources.list ubuntu | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror 快速配置镜像源 Ubuntu 20.04 LTS echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list Ubuntu 22.04 LTS echo &amp;#34;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multivers deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list 清除所有</description>
+    </item>
+    
+    <item>
+      <title>Apt 相关问题</title>
+      <link>https://blog.hzau.top/posts/ubuntu/problem/apt_problem/</link>
+      <pubDate>Sun, 28 Apr 2024 02:48:48 +0800</pubDate>
+      
+      <guid>https://blog.hzau.top/posts/ubuntu/problem/apt_problem/</guid>
+      <description>常见问题 W: GPG error: https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease: The following signatures couldn&amp;rsquo;t be verified because the public key is not available: NO_PUBKEY 871920D1991BC93C 解决方法：添加公钥 解决清华源问题(GPG error:because the public key is not available)\CSDN 博客 E: gnupg, gnupg2 and gnupg1 do not seem to be installed, but one of them is required for this operation 解决方法：安装 gnupg 库 sudo apt install gnupg E: Error, pkgProblemResolver::Resolve generated breaks, this may be caused by held packages. 解决方法：修复破损包 apt --fix-broken install apt-get install aptitude sudo aptitude install &amp;lt;packagename&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 
 ```bash
 docker run -d --restart=on-failure \
-    --name unitree_ws \
+    --name group3 \
     --cap-add=SYS_PTRACE \
     --gpus='"device=1"'  \
     -e USER=unitree	\

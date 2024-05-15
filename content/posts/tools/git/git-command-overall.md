@@ -51,3 +51,32 @@ git reset --hard HEAD~1		# 撤销最近的一次提交
 ### 3. 将本地提交合并为一个
 
 [[Git\] 两种方法合并多个 commit 为一个\_git 合并部分 commit 为一个 commit-CSDN 博客](https://blog.csdn.net/Spade_/article/details/108698036)
+
+
+
+### 4. 暂存分支（stash）
+
+#### 1. 暂存修改
+
+```bash
+git stash save "message"
+```
+
+#### 2. 暂存列表
+
+```bash
+git stash list
+```
+
+#### 3. 恢复暂存并删除
+
+```bash
+git stash pop
+```
+
+#### 4. 清除所有暂存
+
+```bash
+git s
+```
+

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🐍 Python on Dawn Journey</title>
-    <link>http://localhost:1313/posts/python/</link>
+    <link>http://localhost:55736/posts/python/</link>
     <description>Recent content in 🐍 Python on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:55736/posts/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>python 语法</title>
-      <link>http://localhost:1313/posts/python/grammar/</link>
+      <link>http://localhost:55736/posts/python/grammar/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/python/grammar/</guid>
+      <guid>http://localhost:55736/posts/python/grammar/</guid>
       <description>__init__.py 的作用 用于告诉 Python 解释器，该目录是一个包，而不仅仅是一个普通的目录。这样你就可以使用 import 来导入目录中的模块 同时在 init.py 文件中你也可以做一些必要的设置、定义一些变量等等。</description>
     </item>
     

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ubuntu 相关问题 on Dawn Journey</title>
-    <link>http://localhost:1313/posts/ubuntu/problem/</link>
+    <link>http://localhost:55736/posts/ubuntu/problem/</link>
     <description>Recent content in Ubuntu 相关问题 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Apr 2024 02:48:48 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/ubuntu/problem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 02:48:48 +0800</lastBuildDate><atom:link href="http://localhost:55736/posts/ubuntu/problem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apt 相关问题</title>
-      <link>http://localhost:1313/posts/ubuntu/problem/apt_problem/</link>
+      <link>http://localhost:55736/posts/ubuntu/problem/apt_problem/</link>
       <pubDate>Sun, 28 Apr 2024 02:48:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/problem/apt_problem/</guid>
+      <guid>http://localhost:55736/posts/ubuntu/problem/apt_problem/</guid>
       <description>常见问题 W: GPG error: https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease: The following signatures couldn&amp;rsquo;t be verified because the public key is not available: NO_PUBKEY 871920D1991BC93C 解决方法：添加公钥 解决清华源问题(GPG error:because the public key is not available)\CSDN 博客 E: gnupg, gnupg2 and gnupg1 do not seem to be installed, but one of them is required for this operation 解决方法：安装 gnupg 库 sudo apt install gnupg E: Error, pkgProblemResolver::Resolve generated breaks, this may be caused by held packages. 解决方法：修复破损包 apt --fix-broken install apt-get install aptitude sudo aptitude install &amp;lt;packagename&amp;gt;</description>
     </item>
     
     <item>
       <title>字符编码问题</title>
-      <link>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</link>
+      <link>http://localhost:55736/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</link>
       <pubDate>Tue, 23 Apr 2024 01:13:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
+      <guid>http://localhost:55736/posts/ubuntu/problem/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</guid>
       <description>出现 LF will be replaced by CRLF in ****** 解决方法：git config core.autocrlf false</description>
     </item>
     
     <item>
       <title>磁盘空间不足</title>
-      <link>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</link>
+      <link>http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</link>
       <pubDate>Mon, 22 Apr 2024 02:15:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</guid>
+      <guid>http://localhost:55736/posts/ubuntu/problem/%E7%A3%81%E7%9B%98%E7%A9%BA%E9%97%B4%E4%B8%8D%E8%B6%B3/</guid>
       <description>原因分析 使用 df -h 发现，根目录的挂载 / 点的磁盘空间满了，然后发现是 docker 的原因，占用空间太大 解决方法 方法一：删除 docker Overlay2 中的部分内容 方法二（推荐）：修改 docker 的默认存储路径 /var/lib/docker 具体执行 参考：记录一次 docker Overlay2 占用磁盘空间 99%的清理过程 | Laravel China 社区 (learnku.com)</description>
     </item>
     

@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🔵 ROS on Dawn Journey</title>
-    <link>http://localhost:1313/posts/robot/ros/</link>
+    <link>http://localhost:55736/posts/robot/ros/</link>
     <description>Recent content in 🔵 ROS on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/robot/ros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:55736/posts/robot/ros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 22.04 安装 ros1 noetic</title>
-      <link>http://localhost:1313/posts/robot/ros/ros_noetic_install_from_source/</link>
+      <link>http://localhost:55736/posts/robot/ros/ros_noetic_install_from_source/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/ros/ros_noetic_install_from_source/</guid>
+      <guid>http://localhost:55736/posts/robot/ros/ros_noetic_install_from_source/</guid>
       <description>安装 参考 ROS 官网文档：https://wiki.ros.org/noetic/Installation/Source 安装完成之后，使用这一行命令就能引用 ros1 了 source ~/ros_catkin_ws/install_isolated/setup.bash 或者用 colcon 构建的 source ~/ros_catkin_ws/install/setup.bash 当出现错误时，尝试修正中，可以使用 catkin_build_isolated &amp;lt;pkg name&amp;gt; 避免繁琐的所有包构建 常见问题 rosdep update 报错，网络问题 原因：网络被墙，考</description>
     </item>
     
     <item>
       <title>ros 安装相关</title>
-      <link>http://localhost:1313/posts/robot/ros/ros_install/</link>
+      <link>http://localhost:55736/posts/robot/ros/ros_install/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/ros/ros_install/</guid>
+      <guid>http://localhost:55736/posts/robot/ros/ros_install/</guid>
       <description>安装 ROS2 humble 版本 Ubuntu (Debian packages) — ROS 2 Documentation: Humble documentation ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers</description>
     </item>
     
     <item>
       <title>ros 相关的安装</title>
-      <link>http://localhost:1313/posts/robot/ros/ros_about/</link>
+      <link>http://localhost:55736/posts/robot/ros/ros_about/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/robot/ros/ros_about/</guid>
+      <guid>http://localhost:55736/posts/robot/ros/ros_about/</guid>
       <description>安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS 工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本和 python3 版本的 numpy</description>
     </item>
     

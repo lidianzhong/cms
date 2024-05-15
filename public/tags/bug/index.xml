@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bug on Dawn Journey</title>
-    <link>http://localhost:1313/tags/bug/</link>
+    <link>http://localhost:55736/tags/bug/</link>
     <description>Recent content in Bug on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Apr 2024 02:48:48 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 02:48:48 +0800</lastBuildDate><atom:link href="http://localhost:55736/tags/bug/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apt 相关问题</title>
-      <link>http://localhost:1313/posts/ubuntu/problem/apt_problem/</link>
+      <link>http://localhost:55736/posts/ubuntu/problem/apt_problem/</link>
       <pubDate>Sun, 28 Apr 2024 02:48:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/ubuntu/problem/apt_problem/</guid>
+      <guid>http://localhost:55736/posts/ubuntu/problem/apt_problem/</guid>
       <description>常见问题 W: GPG error: https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease: The following signatures couldn&amp;rsquo;t be verified because the public key is not available: NO_PUBKEY 871920D1991BC93C 解决方法：添加公钥 解决清华源问题(GPG error:because the public key is not available)\CSDN 博客 E: gnupg, gnupg2 and gnupg1 do not seem to be installed, but one of them is required for this operation 解决方法：安装 gnupg 库 sudo apt install gnupg E: Error, pkgProblemResolver::Resolve generated breaks, this may be caused by held packages. 解决方法：修复破损包 apt --fix-broken install apt-get install aptitude sudo aptitude install &amp;lt;packagename&amp;gt;</description>
     </item>
     
     <item>
       <title>NodeMCU 编程遇到的问题</title>
-      <link>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</link>
+      <link>http://localhost:55736/posts/embedded_system/nodemcu/problem_nodemcu/</link>
       <pubDate>Fri, 12 Apr 2024 02:12:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
+      <guid>http://localhost:55736/posts/embedded_system/nodemcu/problem_nodemcu/</guid>
       <description>1. command ‘platformio-ide.build‘ not found 解决：关闭 Vscode 再打开就好了~ 2. PlatformIO 串口显示乱码 解决：串口监视器和单片机波特率不一致 [env:nodemcuv2] platform = espressif8266 board = nodemcuv2 framework = esp8266-rtos-sdk monitor_speed = 74880 ; 监视器波特率设置 monitor_port = COM3 ; 监视器端口设置，设置为连接的串口端口 3. PlatformIO 串口显示开头乱码 原因：很有可能是因为你之前烧写的程序没关，</description>
     </item>
     
     <item>
       <title>解决Git同步访问慢的问题</title>
-      <link>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</link>
+      <link>http://localhost:55736/posts/tools/git/solve-git-slow-problem/</link>
       <pubDate>Mon, 01 Apr 2024 01:09:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/tools/git/solve-git-slow-problem/</guid>
+      <guid>http://localhost:55736/posts/tools/git/solve-git-slow-problem/</guid>
       <description>在我们想要将本地的代码提交到 Github 远程仓库时，会因为网络问题，拉取失败。 解决 Git 提交拉取时的网络问题 方法一 (推荐) 获取动态 host ip 进行修改 https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts 也可以是本地 hosts 服务 下载地址：https://github.com/ineo6/hosts/releases/tag/v1.0.1 更多信息：https:</description>
     </item>
     

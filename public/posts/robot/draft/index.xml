@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>📜 草稿 on Dawn Journey</title>
+    <link>http://localhost:55736/posts/robot/draft/</link>
+    <description>Recent content in 📜 草稿 on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:55736/posts/robot/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>go2 控制器方案</title>
+      <link>http://localhost:55736/posts/robot/draft/plan/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:55736/posts/robot/draft/plan/</guid>
+      <description>go2 高层运动 订阅：/sportmodestate ，类型为 unitree_go::msg::SportModeState 发布：api/sport/request，类型为 unitree_api::msg::Request unitree_go::msg::SportModeState TimeSpec stamp(); uint32_t errorCode(); //错误代码 IMU imuState(); //IMU状态 uint8_t mode(); //运动模式 /* 运动模式 0. idle, default stand 1. balanceStand 2. pose 3. locomotion 4. reserve 5. lieDown 6. jointLock 7. damping 8. recoveryStand 9. reserve 10. sit 11. frontFlip 12. frontJump 13. frontPounc */ float progress(); //是否动作执行状态：0. dance false; 1. dance true uint8_t gaitType(); /</description>
+    </item>
+    
+    <item>
+      <title>安装汇总</title>
+      <link>http://localhost:55736/posts/robot/draft/install_draft/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:55736/posts/robot/draft/install_draft/</guid>
+      <description>安装汇总 安装 ros2 control 安装 安装 ros2 control，humble 替换为你使用的版本 sudo apt install ros-humble-ros2-control sudo apt install ros-humble-ros2-controllers 使用 RosTeamWS ROS 工作区模板 能够快速地创建特定 ros 功能包，提供模板功能 https://rtw.stoglrobotics.de/master/index.html ros2 安装 sudo apt install ros-humble-desktop https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html ignition gazebo 安装 ignition 为新一代的模拟题，替换了之前使用的 gazebo sudo wget https://packages.osrfoundation.org/gazebo.gpg -O /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg echo &amp;#34;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main&amp;#34; | sudo tee /etc/apt/sources.list.d/gazebo-stable.list &amp;gt; /dev/null sudo apt-get update sudo apt-get install gz-harmonic https://staging.gazebosim.org/docs/harmonic/install_ubuntu 安装 python2 版本和 python3</description>
+    </item>
+    
+  </channel>
+</rss>

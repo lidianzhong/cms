@@ -2,10 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🔧 工具 on Dawn Journey</title>
-    <link>http://localhost:1313/posts/tools/</link>
+    <link>http://localhost:55736/posts/tools/</link>
     <description>Recent content in 🔧 工具 on Dawn Journey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Apr 2024 03:40:16 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 03:40:16 +0800</lastBuildDate><atom:link href="http://localhost:55736/posts/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker_problem</title>
+      <link>http://localhost:55736/posts/tools/docker/docker_problem/</link>
+      <pubDate>Sun, 28 Apr 2024 03:40:16 +0800</pubDate>
+      
+      <guid>http://localhost:55736/posts/tools/docker/docker_problem/</guid>
+      <description>常见问题 denied: requested access to the resource is denied 解决：镜像的名称和账户的名称没有对应上 登录 Hub 账户 docker login 更改好镜像的名字 docker tag old-repo/my-image:1.0 new-repo/my-image:1.0 参考：解决docker：denied: requested access to the resource is denied_docker login&amp;rsquo;: denied:-CSDN博客 nginx 一直跳转 welcome to nginx nginx配置不生效，页面一直是默认页面welcome to nginx的解决办法_we</description>
+    </item>
+    
+    <item>
+      <title>Docker 安装</title>
+      <link>http://localhost:55736/posts/tools/docker/install/</link>
+      <pubDate>Sat, 27 Apr 2024 00:41:17 +0800</pubDate>
+      
+      <guid>http://localhost:55736/posts/tools/docker/install/</guid>
+      <description>Windows 安装 下载 Docker Desktop https://www.docker.com/products/docker-desktop/ 官方镜像 https://hub.docker.com/ 拉取镜像 docker pull nginx 思路：先运行一个容器，得到生成的挂载文件，然后删除这个容器，再次创建一个新容器，使用这些挂载文件即可。 在过程中，需要注意文件的挂载关系，以下的外链需要稍作修改才可以（修改挂载映射部分） 使用浏览器进行访问，测试是否部署成功 Windows 环境下 Docker Desktop 安装 Nginx_dockerdesktop 搭</description>
+    </item>
+    
+    <item>
+      <title>Problem</title>
+      <link>http://localhost:55736/posts/tools/mysql/problem/</link>
+      <pubDate>Fri, 26 Apr 2024 13:37:23 +0800</pubDate>
+      
+      <guid>http://localhost:55736/posts/tools/mysql/problem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>常用命令</title>
+      <link>http://localhost:55736/posts/tools/docker/docker_common_command/</link>
+      <pubDate>Mon, 22 Apr 2024 01:06:08 +0800</pubDate>
+      
+      <guid>http://localhost:55736/posts/tools/docker/docker_common_command/</guid>
+      <description>sudo rm /etc/apt/sources.list.d/* echo &amp;#34;# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse deb http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse # deb-src http://security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse # 预发布软件源，不建议启用 # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse&amp;#34; &amp;gt; /etc/apt/sources.list sudo apt update &amp;amp;&amp;amp; sudo apt install vim wget unzip 开启 ssh 远程</description>
+    </item>
+    
   </channel>
 </rss>
