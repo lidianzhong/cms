@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Drafts on Dawn Journey</title>
+    <link>http://localhost:52549/draft/</link>
+    <description>Recent content in Drafts on Dawn Journey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language><atom:link href="http://localhost:52549/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:52549/draft/create_docker_image_for_unitree_ws/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:52549/draft/create_docker_image_for_unitree_ws/</guid>
+      <description>1. create container docker run -d --restart=on-failure \ --name group3 \ --cap-add=SYS_PTRACE \ --gpus=&amp;#39;&amp;#34;device=1&amp;#34;&amp;#39; \ -e USER=unitree \ -e PASSWORD=123 \ --shm-size=1024m \ -p 10025:22 \ -p 14025:4000 \ registry.cn-hongkong.aliyuncs.com/gezp/ubuntu-desktop:20.04-cu11.0.3 the default username and password are both ubuntu. 2. access conatiner by ssh ( recommended to use vscode + remote ssh plugin) ssh ubuntu@host-ip -p 10025 3. 安装 ros1 noetic 和 ros2 foxy wget http://fishros.com/install -O fishros &amp;amp;&amp;amp; . fishros 4. 安装 unitree_guide 安装 lcm git clone https://github.com/lcm-proj/lcm.git git checkout v1.4.0 apt install -y openjdk-8-jdk mkdir build cd build cmake .. make export LCM_INSTALL_DIR=/usr/local/lib sudo make install sudo ldconfig Ubuntu20.04安装、编译LCM1.4.0教程_ubuntu20.04</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:52549/draft/drl_grasping_for_docker_image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:52549/draft/drl_grasping_for_docker_image/</guid>
+      <description>开始 删除原有软件源并更新软件源 在 .bashrc 文件中编辑 export PYTHONPATH=~/ws/src/O-CNN/octree/build/python:${PYTHONPATH} 进入 ws 目录 source ~/.bashrc &amp;amp;&amp;amp; cd ws &amp;amp;&amp;amp; . install/setup.bash 执行命令 ros2 run drl_grasping ex_random_agent.bash 你可能会收到如下错误： export IGN_GAZEBO_SYSTEM_PLUGIN_PATH=/root/ws/install/lib</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:52549/draft/right_manage_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:52549/draft/right_manage_system/</guid>
+      <description>用户管理系统 由基础的「用户-权限」基础权限管理系统，到用户 和 权限 之间引入 角色的RBAC 模型的权限设计 用户管理系统 - 用户权限设计从入门到精通 - 知乎 (zhihu.com) RBAC 模型是什么 基于角色的权限控制模型 RBAC 模型的好处在哪里 不需要对单个人员的权限做细粒度的确定，只需要赋予角色权限即可 能够批量调整权限，只对</description>
+    </item>
+    
+  </channel>
+</rss>
